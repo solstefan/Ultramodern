@@ -1,0 +1,32 @@
+.button {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  width: 165px;
+  height: 63px;
+  background-color: #0c1299;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #1f2238;
+}
+
+.button .text {
+  position: absolute;
+  top: 17px;
+  left: 24px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--grey-60);
+  font-size: 18px;
+  letter-spacing: -0.54px;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.button .icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 20px;
+  left: 130px;
+}
