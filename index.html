@@ -66,29 +66,33 @@ h1 {
     <h1>Welcome to Ulttamodern, the collaborative hub for pioneering futuristic design. As a global platform, Ulttamodern brings together architects, web designers, and technical builders to redefine the aesthetics of tomorrow.</h1>
 
     <div class="design-container">
-
-        <!-- Design Cards -->
-        <div class="design-card">
-            <img src="https://github.com/solstefan/Ultramodern/blob/main/Svizzy_AI_chatbot_gaming_dashboard_user_interface_where_the_rig_b9936ba8-b93c-49b6-9632-419366efc6b2.png?raw=true" alt="Design 1">
+        <!-- Design Card 1 -->
+        <div class="design-card" onclick="navigateToDetails('Design 1', 'User Interface', 'Description of Design 1.')">
+            <img src="design1.jpg" alt="Design 1">
             <div class="design-info">
                 <h3>User Interface</h3>
                 <p>Description of the design. See more details.</p>
-                <a href="https://twitter.com/ultramodernweb">View Details</a>
             </div>
         </div>
-
-        <div class="design-card">
-            <img src="https://github.com/solstefan/Ultramodern/blob/main/Svizzy_AI-powered_social_network_software_where_users_can_creat_bb6b2d9b-3ff7-4060-aef3-f209be8202a1.png?raw=true" alt="Design 2">
+        
+        <!-- Design Card 2 -->
+        <div class="design-card" onclick="navigateToDetails('Design 2', 'Interactive UI', 'Description of Design 2.')">
+            <img src="design2.jpg" alt="Design 2">
             <div class="design-info">
-                <h3>Interactive UI </h3>
+                <h3>Interactive UI</h3>
                 <p>Description of the design.</p>
             </div>
         </div>
 
         <!-- Add more design cards as needed -->
-
     </div>
 
+    <script>
+        function navigateToDetails(designName, title, description) {
+            const url = `page2.html?design=${encodeURIComponent(designName)}&title=${encodeURIComponent(title)}&description=${encodeURIComponent(description)}`;
+            window.location.href = url;
+        }
+    </script>
 </body>
 </html>
 
