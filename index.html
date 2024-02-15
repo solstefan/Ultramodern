@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ultramodern</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Add a link to your external stylesheet if you have one -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
@@ -26,8 +27,26 @@
         }
 
         h1 {
-            font-size: 3em;
+            font-size: 2em;
             margin: -1;
+        }
+
+        .design-card {
+            width: 300px;
+            margin: 10px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .design-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .design-info {
+            padding: 15px;
         }
     </style>
 </head>
@@ -36,5 +55,27 @@
         <img id="logo" src="https://github.com/solstefan/Ultramodern/blob/main/Blue%20Minimalist%20Digital%20Marketing%20Logo-11.png?raw=true" alt="Ultramodern Logo">
     </header>
     <h1>Welcome to Ulttamodern, the collaborative hub for pioneering futuristic design. As a global platform, Ulttamodern brings together architects, web designers, and technical builders to redefine the aesthetics of tomorrow.</h1>
+
+    <!-- Design Cards -->
+    <div class="design-card">
+        <img src="design1.jpg" alt="Design 1">
+        <div class="design-info">
+            <h3>Design Title 1</h3>
+            <p>Description of the design. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="path/to/design1">View Details</a>
+        </div>
+    </div>
+
+    <div class="design-card">
+        <img src="design2.jpg" alt="Design 2">
+        <div class="design-info">
+            <h3>Interactive UI </h3>
+            <p>Description of the design. 
+        </div>
+    </div>
+
+    <!-- Add more design cards as needed -->
+
 </body>
 </html>
+
