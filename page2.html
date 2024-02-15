@@ -9,20 +9,26 @@
 <body>
     <h1>Project Details</h1>
 
-    <p>Welcome to the details page. Here you can find information about the project's blueprints, documents, and design elements.</p>
+    <p>Welcome to the details page. Here you can find information about the selected design.</p>
 
-    <h2>Blueprints and Documents</h2>
-    <p>Explore the blueprints and documents related to the project. Click on the links below:</p>
-    <ul>
-        <li><a href="Blueprints/">Blueprints Folder</a></li>
-        <li><a href="Documents/">Documents Folder</a></li>
-    </ul>
+    <h2>Design Details</h2>
+    <p>Name: <span id="designName"></span></p>
+    <p>Title: <span id="designTitle"></span></p>
+    <p>Description: <span id="designDescription"></span></p>
 
-    <h2>Design Elements</h2>
-    <p>Check out the design elements that contribute to the project's aesthetic:</p>
-    <img src="DesignElements/design_element1.jpg" alt="Design Element 1">
-    <img src="DesignElements/design_element2.jpg" alt="Design Element 2">
+    <script>
+        // Extract details from the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const designName = urlParams.get('design');
+        const title = urlParams.get('title');
+        const description = urlParams.get('description');
 
+        // Display details on the page
+        document.getElementById('designName').innerText = designName || 'N/A';
+        document.getElementById('designTitle').innerText = title || 'N/A';
+        document.getElementById('designDescription').innerText = description || 'N/A';
+    </script>
 </body>
 </html>
+
 
