@@ -12,7 +12,7 @@ ultramodern principles 🔋
 
 🔵Designs that not only push boundaries but do so with an intuitive approach, making cutting-edge concepts accessible, aesthetic, and understandable.
 
-🔵Celebrating diversity by curating designs that draw inspiration from various cultures and perspectives worldwide, making Ulttamodern a true global melting pot of futuristic creativity.
+🔵Curating tasteful designs that draw inspiration from various cultures and perspectives worldwide, seeking contemporary creations.
 
 
 Make sure you have the following installed on your system:
