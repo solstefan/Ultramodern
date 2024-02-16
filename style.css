@@ -1,25 +1,25 @@
- @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-        body {
-            background-color: #131416;
-            color: #ffffff;
-            font-family: 'Inter', sans-serif;
-            text-align: center;
-            margin: 20px 0;
-        }
+body {
+    background-color: #131416;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin: 20px 0;
+}
 
-        header {
-            background-color: #131416;
-            padding: 10px;
-            text-align: left; /* Align text to the left within the header */
-        }
+header {
+    background-color: #131416;
+    padding: 10px;
+    text-align: left; /* Align text to the left within the header */
+}
 
-        #logo {
-            height: 50px; /* Set the height of the logo */
-        }
+#logo {
+    height: 50px; /* Set the height of the logo */
+}
 
 h1 {
-     font-size: 1em;
+    font-size: 1em;
     margin: 0;
     font-weight: lighter;
 }
@@ -32,20 +32,29 @@ h1 {
 }
 
 .design-card {
-        width: 300px;
-        margin: 10px;
-        border-radius: 10px;
-        overflow: hidden;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        cursor: pointer; /* Change cursor to pointer */
-    }
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer; /* Change cursor to pointer */
+}
 
-    .design-card img {
-        width: 100%;
-        height: auto;
-        border-radius: 8px 8px 0 0;
-    }
+.design-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
 
-    .design-info {
-        padding: 10px;
-    }
+.design-info {
+    padding: 10px;
+    text-align: center; /* Center the text horizontally */
+    background: linear-gradient(45deg, #FFB6C1, #87CEEB); /* Gradient background */
+    -webkit-background-clip: text; /* Clip the text to the background gradient */
+    color: transparent; /* Make the text transparent so the gradient shows through */
+}
+
+.design-info p {
+    font-size: 15px; /* Set the font size to 15px */
+    margin: 0; /* Remove any default margin */
+}
