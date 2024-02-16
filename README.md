@@ -4,15 +4,13 @@ Collaborative hub for pioneering futuristic design. Open-source platform that ho
 
 ultramodern principles 🔋
 
-🔵Designs that not only look ahead but also demonstrate practical innovation, solving real-world challenges.
-
-🔵Community-driven evolution, where contributors build upon each other's ideas, fostering a dynamic and progressive ecosystem.
+🔵Designs that not only look ahead but also demonstrate practical innovation, or problem-solving.
 
 🔵Embracing the synergy between architecture, web design, robotics, and spaces, creating a harmonious blend that defines the future aesthetic.
 
 🔵Designs that not only push boundaries but do so with an intuitive approach, problem-solving with technology.
 
-🔵Curating tasteful designs that draw inspiration from various fields and perspectives worldwide, seeking contemporary creations.
+🔵Curating tasteful designs that draw inspiration from various fields and industries worldwide, seeking contemporary creations.
 
 
 
