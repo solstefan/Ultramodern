@@ -10,7 +10,7 @@ ultramodern principles 🔋
 
 🔵Embracing the synergy between architecture, web design, robotics, and spaces, creating a harmonious blend that defines the future aesthetic.
 
-🔵Designs that not only push boundaries but do so with an intuitive approach, making cutting-edge concepts accessible, aesthetic, and understandable.
+🔵Designs that not only push boundaries but do so with an intuitive approach, problem-solving with technology.
 
 🔵Curating tasteful designs that draw inspiration from various cultures and perspectives worldwide, seeking contemporary creations.
 
