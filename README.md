@@ -1,5 +1,5 @@
 # Ultramodern
-Collaborative hub for pioneering future of design. Open-source platform that hopes to bring together designers, architects, and technical builders. This repository serves as the heart of our community, where contributors can showcase, collaborate, and evolve cutting-edge designs across various categories, from architecture to web design and robotics.
+A collaborative pioneering  of future design. Open-source platform that hopes to bring together designers, architects, and technical builders. This repository serves as the heart of our community, where contributors can showcase, collaborate, and evolve cutting-edge designs across various categories, from architecture to web design and robotics.
 
 
 ultramodern guidelines 🔋⤵️
