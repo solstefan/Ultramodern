@@ -6,7 +6,7 @@ ultramodern guidelines 🔋
 
 🔵Designs that not only look ahead but also demonstrate practical innovation, or problem-solving. Breathtaking aesthetic is fine too.
 
-🔵Embracing the synergy between architecture, web design, robotics, and spaces, creating a harmonious blend that defines the future aesthetic.
+🔵Collide the synergy between architecture, web design, robotics, and spaces, creating a harmonious blend that defines the future aesthetic.
 
 🔵Designs that not only push boundaries but do so with an intuitive approach, problem-solving with technology.
 
