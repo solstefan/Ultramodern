@@ -4,15 +4,15 @@ Welcome to Ulttamodern, the collaborative hub for pioneering futuristic design. 
 
 ultramodern principles 🔋
 
-Designs that not only look ahead but also demonstrate practical innovation, solving real-world challenges.
+🔵Designs that not only look ahead but also demonstrate practical innovation, solving real-world challenges.
 
-Community-driven evolution, where contributors build upon each other's ideas, fostering a dynamic and progressive ecosystem.
+🔵Community-driven evolution, where contributors build upon each other's ideas, fostering a dynamic and progressive ecosystem.
 
-Embracing the synergy between architecture, web design, robotics, and spaces, creating a harmonious blend that defines the future aesthetic.
+🔵Embracing the synergy between architecture, web design, robotics, and spaces, creating a harmonious blend that defines the future aesthetic.
 
-Designs that not only push boundaries but do so with an intuitive approach, making cutting-edge concepts accessible, aesthetic, and understandable.
+🔵Designs that not only push boundaries but do so with an intuitive approach, making cutting-edge concepts accessible, aesthetic, and understandable.
 
-Celebrating diversity by curating designs that draw inspiration from various cultures and perspectives worldwide, making Ulttamodern a true global melting pot of futuristic creativity.
+🔵Celebrating diversity by curating designs that draw inspiration from various cultures and perspectives worldwide, making Ulttamodern a true global melting pot of futuristic creativity.
 
 
 Make sure you have the following installed on your system:
