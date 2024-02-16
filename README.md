@@ -1,5 +1,5 @@
 # Ultramodern
-Welcome to Ulttamodern, the collaborative hub for pioneering futuristic design. Global platform that hopes to bring together architects, web designers, and innovators to redefine the aesthetics of tomorrow. This repository serves as the heart of our community, where contributors can showcase, collaborate, and evolve cutting-edge designs across various categories, from architecture to web design and robotics.
+Collaborative hub for pioneering futuristic design. Open-source platform that hopes to bring together designers, architects, and technical builders. This repository serves as the heart of our community, where contributors can showcase, collaborate, and evolve cutting-edge designs across various categories, from architecture to web design and robotics.
 
 
 ultramodern principles 🔋
