@@ -12,7 +12,7 @@ ultramodern principles 🔋
 
 🔵Designs that not only push boundaries but do so with an intuitive approach, problem-solving with technology.
 
-🔵Curating tasteful designs that draw inspiration from various cultures and perspectives worldwide, seeking contemporary creations.
+🔵Curating tasteful designs that draw inspiration from various fields and perspectives worldwide, seeking contemporary creations.
 
 
 
