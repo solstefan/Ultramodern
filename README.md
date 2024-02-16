@@ -2,9 +2,9 @@
 Collaborative hub for pioneering futuristic design. Open-source platform that hopes to bring together designers, architects, and technical builders. This repository serves as the heart of our community, where contributors can showcase, collaborate, and evolve cutting-edge designs across various categories, from architecture to web design and robotics.
 
 
-ultramodern principles 🔋
+ultramodern guidelines 🔋
 
-🔵Designs that not only look ahead but also demonstrate practical innovation, or problem-solving.
+🔵Designs that not only look ahead but also demonstrate practical innovation, or problem-solving. Breathtaking aesthetic is fine too.
 
 🔵Embracing the synergy between architecture, web design, robotics, and spaces, creating a harmonious blend that defines the future aesthetic.
 
