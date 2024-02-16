@@ -15,6 +15,8 @@ ultramodern principles 🔋
 🔵Curating tasteful designs that draw inspiration from various cultures and perspectives worldwide, seeking contemporary creations.
 
 
+
+
 Make sure you have the following installed on your system:
 
 - [Git](https://git-scm.com/)
