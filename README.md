@@ -4,7 +4,7 @@ Collaborative hub for pioneering futuristic design. Open-source platform that ho
 
 ultramodern guidelines 🔋
 
-🔵Designs that not only look ahead but also demonstrate practical innovation, or problem-solving. Breathtaking aesthetic is fine too.
+🔵Designs that not only look ahead but also demonstrate practical innovation. Breathtaking aesthetic is fine too.
 
 🔵Collide the synergy between architecture, web design, robotics, and spaces, creating a harmonious community that defines the future aesthetic.
 
