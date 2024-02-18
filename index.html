@@ -77,11 +77,18 @@
 </div>
 
     <script>
-        function navigateToDetails(designName, titleId, descriptionId) {
-    const designTitle = document.getElementById(titleId).innerText;
-    const designDescription = document.getElementById(descriptionId).innerText;
-        }
-    </script>
+    function navigateToDetails(designName, titleId, descriptionId) {
+        const designTitle = document.getElementById(titleId).innerText;
+        const designDescription = document.getElementById(descriptionId).innerText;
+
+        // Construct the URL with encoded parameters
+        const url = `page2.html?design=${encodeURIComponent(designName)}&title=${encodeURIComponent(designTitle)}&description=${encodeURIComponent(designDescription)}`;
+
+        // Navigate to the next page
+        window.location.href = url;
+    }
+</script>
+
 </body>
 </html>
 
