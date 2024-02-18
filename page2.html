@@ -47,28 +47,29 @@
     </script>
 
     <!-- Add this part to handle clicking on design cards -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const designCards = document.querySelectorAll('.design-card');
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const designCards = document.querySelectorAll('.design-card');
 
-            designCards.forEach(function (card) {
-                card.addEventListener('click', function () {
-                    // Extract details from the clicked card
-                    const designName = card.getAttribute('data-design-name');
-                    const title = card.getAttribute('data-design-title');
-                    const description = card.getAttribute('data-design-description');
+        designCards.forEach(function (card) {
+            card.addEventListener('click', function () {
+                // Extract details from the clicked card
+                const designName = card.dataset.designName;
+                const title = card.dataset.designTitle;
+                const description = card.dataset.designDescription;
 
-                    // Store details in local storage
-                    localStorage.setItem('designName', designName);
-                    localStorage.setItem('designTitle', title);
-                    localStorage.setItem('designDescription', description);
+                // Store details in local storage
+                localStorage.setItem('designName', designName);
+                localStorage.setItem('designTitle', title);
+                localStorage.setItem('designDescription', description);
 
-                    // Redirect to details page
-                    window.location.href = 'page2.html';
-                });
+                // Redirect to details page
+                window.location.href = 'page2.html';
             });
         });
-    </script>
+    });
+</script>
+
 </body>
 </html>
 
