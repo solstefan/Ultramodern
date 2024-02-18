@@ -65,7 +65,7 @@ h1 {
 
 .single-line-text ul {
     list-style: none; /* Remove default list styles */
-    padding: 0; /* Remove default padding */
+    padding: 5px; /* Remove default padding */
     white-space: nowrap; /* Prevent line breaks within the list */
 }
 
