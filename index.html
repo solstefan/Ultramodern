@@ -77,9 +77,9 @@
 </div>
 
     <script>
-        function navigateToDetails(designName, title, description) {
-            const url = `page2.html?design=${encodeURIComponent(designName)}&title=${encodeURIComponent(title)}&description=${encodeURIComponent(description)}`;
-            window.location.href = url;
+        function navigateToDetails(designName, titleId, descriptionId) {
+    const designTitle = document.getElementById(titleId).innerText;
+    const designDescription = document.getElementById(descriptionId).innerText;
         }
     </script>
 </body>
