@@ -79,10 +79,11 @@
         // Construct the URL with encoded parameters
         const url = `page2.html?design=${encodeURIComponent(designName)}&title=${encodeURIComponent(designTitle)}&description=${encodeURIComponent(designDescription)}`;
 
-        // Navigate to the next page
-        window.location.href = "page2.html";
+        // Navigate to the next page with the constructed URL
+        window.location.href = url;
     }
 </script>
+
 
 </body>
 </html>
