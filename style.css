@@ -61,5 +61,7 @@ h1 {
 
 .single-line-text {
     white-space: nowrap;
+    overflow-x: auto;
 }
+
 
