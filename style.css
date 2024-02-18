@@ -60,8 +60,19 @@ h1 {
 }
 
 .single-line-text {
-    white-space: nowrap;
-    overflow-x: auto;
+    text-align: center; /* Center-align the text */
+    white-space: normal; /* Allow text to wrap */
 }
+
+.single-line-text ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+.single-line-text li {
+    display: inline-block; /* Display list items horizontally */
+    margin: 0 10px; /* Adjust margin between list items */
+}
+
 
 
