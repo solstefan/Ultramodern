@@ -29,15 +29,22 @@
     <p>Description: <span id="designDescription"></span></p>
 
     <script>
-        // Retrieve data from local storage
-        const designName = localStorage.getItem('designName') || 'N/A';
-        const title = localStorage.getItem('designTitle') || 'N/A';
-        const description = localStorage.getItem('designDescription') || 'N/A';
+       // Retrieve data from local storage or URL parameters
+const designName = localStorage.getItem('designName') || getParameterByName('design') || 'N/A';
+const title = localStorage.getItem('designTitle') || getParameterByName('title') || 'N/A';
+const description = localStorage.getItem('designDescription') || getParameterByName('description') || 'N/A';
 
-        // Display details on the page
-        document.getElementById('designName').innerText = designName;
-        document.getElementById('designTitle').innerText = title;
-        document.getElementById('designDescription').innerText = description;
+// Display details on the page
+document.getElementById('designName').innerText = designName;
+document.getElementById('designTitle').innerText = title;
+document.getElementById('designDescription').innerText = description;
+
+// Function to get URL parameters
+// Source: https://stackoverflow.com/a/901144/1234567
+function getParameterByName(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+}
     </script>
 </body>
 </html>
