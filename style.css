@@ -27,7 +27,7 @@ h1 {
 p {
     font-size: 14px; /* Adjust the font size for paragraphs */
     line-height: 1.5; /* Set the line height for better readability */
-    margin: 10px 0; /* Add margin to separate paragraphs */
+    margin: 5px 0; /* Add margin to separate paragraphs */
 }
 
 .special-paragraph {
