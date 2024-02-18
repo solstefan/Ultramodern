@@ -14,9 +14,9 @@
     
     <h1>A collaborative pioneering of future design. Open-source platform that hopes to bring together designers, architects, and technical builders. </h1>
     <p class="special-paragraph">❶Designs that not only push boundaries but do so with an intuitive approach, problem-solving with technology.</p>
-    <p class="special-paragraph">²Merging synergies of architecture, web design, robotics, and spaces, creating a harmonious community that defines the future aesthetic.</p>
-    <p class="special-paragraph">⑶Designs that not only push boundaries but do so with an intuitive approach, problem-solving with technology.</p>
-    <p class="special-paragraph">⓸Curating tasteful designs that draw inspiration from various fields and industries worldwide, seeking contemporary creations.</p>
+    <p class="special-paragraph">❷Merging synergies of architecture, web design, robotics, and spaces, creating a harmonious community that defines the future aesthetic.</p>
+    <p class="special-paragraph">❸Designs that not only push boundaries but do so with an intuitive approach, problem-solving with technology.</p>
+    <p class="special-paragraph">❹Curating tasteful designs that draw inspiration from various fields and industries worldwide, seeking contemporary creations.</p>
      
 
     
@@ -25,7 +25,7 @@
     
     <div class="design-container">
     <!-- Design Card 1 -->
-    <div class="design-card" onclick="navigateToDetails('Design 1', 'User Interface', 'Description of Design 1.')">
+    <div class="design-card" data-design-name="Design 5" data-design-title="Modern Train" data-design-description="Description of Design 5.">
         <img src="https://github.com/solstefan/Ultramodern/blob/main/Svizzy_AI_chatbot_gaming_dashboard_user_interface_where_the_rig_b9936ba8-b93c-49b6-9632-419366efc6b2.png?raw=true" alt="Design 1">
         <div class="design-info">
             <h3>User Interface</h3>
@@ -34,7 +34,7 @@
     </div>
 
     <!-- Design Card 2 -->
-<div class="design-card" onclick="navigateToDetails('Design 2', 'Interactive UI', 'Description of Design 2.')">
+<div class="design-card" data-design-name="Design 5" data-design-title="Modern Train" data-design-description="Description of Design 5.">
     <img src="https://github.com/solstefan/Ultramodern/blob/main/MIT%20engineers%20create%20glove%20that%20mitigates%20hand%20tremors%20from%20Parkinson's.jpeg?raw=true">
     <div class="design-info">
         <h3 id="designTitle2">Robotics Blueprint</h3>
@@ -44,7 +44,7 @@
 
 
     <!-- Design Card 3 -->
-    <div class="design-card" onclick="navigateToDetails('Design 3', 'Futuristic Dashboard', 'Description of Design 3.')">
+    <div class="design-card" data-design-name="Design 5" data-design-title="Modern Train" data-design-description="Description of Design 5.">
         <img src="https://github.com/solstefan/Ultramodern/blob/main/The%20Superb%20Futristic%20Dashboards%20and%20Floating%20UIs%20by%20Sebastian%20Stapelfeldt%20%E2%80%93%20Design%20You%20Trust.jpeg?raw=true">
         <div class="design-info">
             <h3>Futuristic Dashboard</h3>
@@ -53,7 +53,7 @@
     </div>
 
     <!-- Design Card 4 -->
-    <div class="design-card" onclick="navigateToDetails('Design 4', 'Architecture Document', 'Description of Design 4.')">
+    <div class="design-card" data-design-name="Design 5" data-design-title="Modern Train" data-design-description="Description of Design 5.">
         <img src="https://raw.githubusercontent.com/solstefan/Ultramodern/main/acri%CC%81lico%2C%20planta%2C%20volumetri%CC%81a_%202016.jpeg">
         <div class="design-info">
             <h3>Architecture Document</h3>
@@ -62,27 +62,26 @@
     </div>
 
     <!-- Design Card 5 -->
-    <div class="design-card" onclick="navigateToDetails('Design 5', 'Modern Train', 'Description of Design 5.')">
-        <img src="https://github.com/solstefan/Ultramodern/blob/main/Concept%20luxury%20train%20for%20route%20_Moscow%20-%20Beijing_%20_%20Futuristic%20design,%20Futuristic%20technology,%20Transportation%20design.jpeg?raw=true">
-        <div class="design-info">
-            <h3>Modern Train</h3>
-            <p>Design elements and documents.</p>
-        </div>
+<div class="design-card" data-design-name="Design 5" data-design-title="Modern Train" data-design-description="Description of Design 5.">
+    <img src="https://github.com/solstefan/Ultramodern/blob/main/Concept%20luxury%20train%20for%20route%20_Moscow%20-%20Beijing_%20_%20Futuristic%20design,%20Futuristic%20technology,%20Transportation%20design.jpeg?raw=true">
+    <div class="design-info">
+        <h3>Modern Train</h3>
+        <p>Design elements and documents.</p>
     </div>
 </div>
 
+</div>
+
     <script>
-    function navigateToDetails(designName, titleId, descriptionId) {
-        const designTitle = document.getElementById(titleId).innerText;
-        const designDescription = document.getElementById(descriptionId).innerText;
-
+    function navigateToDetails(designName, title, description) {
         // Construct the URL with encoded parameters
-        const url = `page2.html?design=${encodeURIComponent(designName)}&title=${encodeURIComponent(designTitle)}&description=${encodeURIComponent(designDescription)}`;
+        const url = `page2.html?design=${encodeURIComponent(designName)}&title=${encodeURIComponent(title)}&description=${encodeURIComponent(description)}`;
 
-        // Navigate to the next page with the constructed URL
+        // Navigate to the next page
         window.location.href = url;
     }
 </script>
+
 
 
 </body>
