@@ -11,11 +11,11 @@ body {
 header {
     background-color: #131416;
     padding: 10px;
-    text-align: left; /* Align text to the left within the header */
+    text-align: left;
 }
 
 #logo {
-    height: 50px; /* Set the height of the logo */
+    height: 50px;
 }
 
 h1 {
@@ -27,8 +27,8 @@ h1 {
 .design-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center the items horizontally */
-    align-items: center; /* Center the items vertically */
+    justify-content: center;
+    align-items: center;
 }
 
 .design-card {
@@ -37,7 +37,7 @@ h1 {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    cursor: pointer; /* Change cursor to pointer */
+    cursor: pointer;
 }
 
 .design-card img {
@@ -48,13 +48,14 @@ h1 {
 
 .design-info {
     padding: 10px;
-    text-align: center; /* Center the text horizontally */
-    background: linear-gradient(45deg, #FFB6C1, #87CEEB); /* Gradient background */
-    -webkit-background-clip: text; /* Clip the text to the background gradient */
-    color: transparent; /* Make the text transparent so the gradient shows through */
+    text-align: center;
+    background: linear-gradient(45deg, #FFB6C1, #87CEEB);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .design-info p {
-    font-size: 15px; /* Set the font size to 15px */
-    margin: 0; /* Remove any default margin */
+    font-size: 15px;
+    margin: 0;
 }
+
