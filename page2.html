@@ -29,22 +29,45 @@
     <p>Description: <span id="designDescription"></span></p>
 
     <script>
-       // Retrieve data from local storage or URL parameters
-const designName = localStorage.getItem('designName') || getParameterByName('design') || 'N/A';
-const title = localStorage.getItem('designTitle') || getParameterByName('title') || 'N/A';
-const description = localStorage.getItem('designDescription') || getParameterByName('description') || 'N/A';
+        // Retrieve data from local storage or URL parameters
+        const designName = localStorage.getItem('designName') || getParameterByName('design') || 'N/A';
+        const title = localStorage.getItem('designTitle') || getParameterByName('title') || 'N/A';
+        const description = localStorage.getItem('designDescription') || getParameterByName('description') || 'N/A';
 
-// Display details on the page
-document.getElementById('designName').innerText = designName;
-document.getElementById('designTitle').innerText = title;
-document.getElementById('designDescription').innerText = description;
+        // Display details on the page
+        document.getElementById('designName').innerText = designName;
+        document.getElementById('designTitle').innerText = title;
+        document.getElementById('designDescription').innerText = description;
 
-// Function to get URL parameters
-// Source: https://stackoverflow.com/a/901144/1234567
-function getParameterByName(name) {
-    const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get(name);
-}
+        // Function to get URL parameters
+        function getParameterByName(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+    </script>
+
+    <!-- Add this part to handle clicking on design cards -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const designCards = document.querySelectorAll('.design-card');
+
+            designCards.forEach(function (card) {
+                card.addEventListener('click', function () {
+                    // Extract details from the clicked card
+                    const designName = card.getAttribute('data-design-name');
+                    const title = card.getAttribute('data-design-title');
+                    const description = card.getAttribute('data-design-description');
+
+                    // Store details in local storage
+                    localStorage.setItem('designName', designName);
+                    localStorage.setItem('designTitle', title);
+                    localStorage.setItem('designDescription', description);
+
+                    // Redirect to details page
+                    window.location.href = 'page2.html';
+                });
+            });
+        });
     </script>
 </body>
 </html>
