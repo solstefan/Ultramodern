@@ -71,7 +71,7 @@ h1 {
 
 .single-line-text li {
     display: inline-block; /* Display list items horizontally */
-    margin-right: 5px; /* Adjust margin between list items */
+    margin-right: 20px; /* Adjust margin between list items */
 }
 
 
