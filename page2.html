@@ -5,6 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Details Page</title>
+    <style>
+        body {
+            background-color: #000000; /* Black background */
+            color: #ffffff; /* White text */
+            text-align: center;
+            margin: 20px;
+        }
+
+        h1, h2, p {
+            color: #ffffff; /* White text */
+        }
+    </style>
 </head>
 <body>
     <h1>Project Details</h1>
@@ -17,18 +29,18 @@
     <p>Description: <span id="designDescription"></span></p>
 
     <script>
-        // Extract details from the URL
-        const urlParams = new URLSearchParams(window.location.search);
-        const designName = urlParams.get('design');
-        const title = urlParams.get('title');
-        const description = urlParams.get('description');
+        // Retrieve data from local storage
+        const designName = localStorage.getItem('designName') || 'N/A';
+        const title = localStorage.getItem('designTitle') || 'N/A';
+        const description = localStorage.getItem('designDescription') || 'N/A';
 
         // Display details on the page
-        document.getElementById('designName').innerText = designName || 'N/A';
-        document.getElementById('designTitle').innerText = title || 'N/A';
-        document.getElementById('designDescription').innerText = description || 'N/A';
+        document.getElementById('designName').innerText = designName;
+        document.getElementById('designTitle').innerText = title;
+        document.getElementById('designDescription').innerText = description;
     </script>
 </body>
 </html>
+
 
 
