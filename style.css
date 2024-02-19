@@ -117,7 +117,7 @@ p {
     }
 
     #logo {
-        height: 40px; /* Reduce the height of the logo for better fit on small screens */
+        height: 50px; /* Reduce the height of the logo for better fit on small screens */
     }
 
     .hero-section img {
@@ -125,7 +125,7 @@ p {
     }
 
     h1 {
-        font-size: 18px; /* Adjust the font size for better readability on small screens */
+        font-size: 16px; /* Adjust the font size for better readability on small screens */
     }
 
     .pattern-container {
