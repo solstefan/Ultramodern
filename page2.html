@@ -54,9 +54,9 @@
         designCards.forEach(function (card) {
             card.addEventListener('click', function () {
                 // Extract details from the clicked card
-                const designName = card.dataset.designName;
-                const title = card.dataset.designTitle;
-                const description = card.dataset.designDescription;
+                const designName = card.getAttribute('data-design-name');
+                const title = card.getAttribute('data-design-title');
+                const description = card.getAttribute('data-design-description');
 
                 // Store details in local storage
                 localStorage.setItem('designName', designName);
