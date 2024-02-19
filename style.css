@@ -107,4 +107,34 @@ p {
     justify-content: center;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 10px; /* Adjust margin for better readability on small screens */
+    }
+
+    header {
+        text-align: center; /* Center the logo on small screens */
+    }
+
+    #logo {
+        height: 40px; /* Reduce the height of the logo for better fit on small screens */
+    }
+
+    .hero-section img {
+        width: 100%; /* Make the hero image fill the width of the screen on small screens */
+    }
+
+    h1 {
+        font-size: 18px; /* Adjust the font size for better readability on small screens */
+    }
+
+    .pattern-container {
+        padding: 10px; /* Add padding to the pattern container for better spacing on small screens */
+    }
+
+    .design-card {
+        width: calc(100% - 20px); /* Make the design cards full width with some margin on small screens */
+        margin: 10px 0; /* Adjust the margin between design cards on small screens */
+    }
+}
 
