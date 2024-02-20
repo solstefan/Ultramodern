@@ -140,8 +140,9 @@ p {
     .footer {
     text-align: center;
     padding: 20px;
+    color: white;
     border-top: 1px dotted #999; /* Dotted line styling */
-    font-size: 13px;
+    font-size: 11px;
 }
 
 }
