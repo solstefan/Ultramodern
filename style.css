@@ -123,7 +123,7 @@ p {
     }
 
     #logo {
-        height: 50px; /* Reduce the height of the logo for better fit on small screens */
+        height: 60px; /* Reduce the height of the logo for better fit on small screens */
     }
 
     .hero-section img {
@@ -145,7 +145,7 @@ p {
 
     .footer {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     color: black;
     border-top: 1px dotted #999; /* Dotted line styling */
     font-size: 11px;
