@@ -136,5 +136,14 @@ p {
         width: calc(100% - 20px); /* Make the design cards full width with some margin on small screens */
         margin: 10px 0; /* Adjust the margin between design cards on small screens */
     }
+
+    .footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px dotted #999; /* Dotted line styling */
+    font-size: 13px;
 }
+
+}
+
 
