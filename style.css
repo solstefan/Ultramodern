@@ -146,8 +146,8 @@ p {
     .footer {
     text-align: center;
     padding: 10px;
-    color: black;
-    border-top: 1px dotted #999; /* Dotted line styling */
+    color: white;
+    border-top: 0.5px dotted #888; /* Dotted line styling */
     font-size: 11px;
 }
 
