@@ -150,22 +150,6 @@ p {
     border-top: 0.5px dotted #888; /* Dotted line styling */
     font-size: 11px;
 }
-    .frame {
-  background-color: transparent;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-}
-
-.frame .div {
-  border: 1px solid;
-  border-color: #54555ea6;
-  background-image: url(./img/light-mode.png);
-  background-size: 100% 100%;
-  width: 1440px;
-  height: 987px;
-}
 
 
 
