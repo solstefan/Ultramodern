@@ -9,14 +9,19 @@ body {
 }
 
 header {
-    background-color: #131416;
-    padding: 10px;
-    text-align: left;
+    display: flex;
+    align-items: center; /* Vertically center the logo and nav */
+    justify-content: space-between; /* Distribute space between the logo and nav */
+    padding: 10px; /* Adjust as needed */
+    background-color: #ffffff; /* Set your desired background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow */
 }
 
 #logo {
-    height: 50px;
+    width: 45px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
 }
+
 
 h1 {
     font-size: 14px;
@@ -36,19 +41,21 @@ p {
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 nav li {
-    margin-right: 20px;
+    margin-right: 20px; /* Adjust the spacing between navigation options */
 }
 
 nav a {
     text-decoration: none;
-    color: #333; /* Adjust the link color as needed */
+    color: #333333; /* Set your desired text color */
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px; /* Adjust the font size */
 }
 
 .special-paragraph {
