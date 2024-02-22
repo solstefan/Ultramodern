@@ -7,6 +7,12 @@ body {
     text-align: center;
     margin: 15px 0;
 }
+
+a {
+            text-decoration: none; /* Removes underline */
+            color: ##dcdfe3; /* Set your desired color */
+        }
+
         nav {
             display: flex;
             align-items: center;
