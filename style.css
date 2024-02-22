@@ -16,8 +16,8 @@ header {
 }
 
 #logo {
-    width: 50px; /* Adjust the width of the logo */
-    height: 50px; /* Maintain aspect ratio */
+    width: 100px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
 }
 
 
