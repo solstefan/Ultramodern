@@ -35,6 +35,21 @@ p {
     margin: 0 auto; /* Center the container */
 }
 
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Adjust the link color as needed */
+    font-weight: bold;
+    font-size: 16px;
+}
 
 .special-paragraph {
     font-size: 12px;
