@@ -61,5 +61,45 @@
     <p>We'll keep you updated with exciting developments.</p>
 </div>
 
+    <script>
+    function submitForm() {
+        const email = document.getElementById('emailInput').value;
+
+        // Check if the email is valid before submitting
+        if (validateEmail(email)) {
+            // You can use a service or an API endpoint to send an email with the provided data
+            // Replace 'YOUR_EMAIL_SERVICE_ENDPOINT' with the actual endpoint
+            const emailServiceURL = 'YOUR_EMAIL_SERVICE_ENDPOINT';
+
+            fetch(emailServiceURL, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ email }),
+            })
+            .then(response => {
+                if (response.ok) {
+                    alert('Submission successful! You will receive an email.');
+                } else {
+                    alert('Submission failed. Please try again.');
+                }
+            })
+            .catch(error => {
+                console.error('Error submitting form:', error);
+                alert('Something went wrong. Please try again later.');
+            });
+        } else {
+            alert('Please enter a valid email address.');
+        }
+    }
+
+    // Function to validate email format
+    function validateEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
+</script>
+
 </body>
 </html>
