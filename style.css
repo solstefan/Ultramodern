@@ -8,50 +8,31 @@ body {
     margin: 15px 0;
 }
 
-nav {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: 16px;
-        position: relative;
-    }
+<style>
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: #2C2C2C; /* Add a background color to the nav */
+        }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
+        #logo {
+            width: auto; /* Allow the logo to adjust its width */
+            height: 40px; /* Set a fixed height for the logo */
+        }
 
+        ul {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+        }
 
-    nav .menu-item {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        padding: 12px 8px;
-        position: relative;
-        align-self: stretch;
-        flex: 0 0 auto;
-    }
-
-    nav .text-wrapper {
-        position: relative;
-        width: fit-content;
-        margin-top: -1px;
-        font-family: var(--button-m-font-family);
-        font-weight: var(--button-m-font-weight);
-        color: var(--blue-gray400);
-        font-size: var(--button-m-font-size);
-        letter-spacing: var(--button-m-letter-spacing);
-        line-height: var(--button-m-line-height);
-        white-space: nowrap;
-        font-style: var(--button-m-font-style);
-    }
-
-
-#logo {
-    width: 50%;
-    height: auto;
-}
+        li {
+            color: white; /* Set the color of the text to white */
+            font-size: 16px;
+        }
+    </style>
 
 
 
