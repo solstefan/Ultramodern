@@ -16,6 +16,13 @@ nav {
         position: relative;
     }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
     nav .menu-item {
         display: inline-flex;
         align-items: center;
@@ -42,9 +49,10 @@ nav {
 
 
 #logo {
-    width: 50px; /* Adjust the width of the logo */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%;
+    height: auto;
 }
+
 
 
 h1 {
@@ -149,7 +157,7 @@ p {
     }
 
     #logo {
-        height: 60px; /* Reduce the height of the logo for better fit on small screens */
+        height: auto; /* Set height to auto to maintain the original aspect ratio */
     }
 
     .hero-section img {
