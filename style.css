@@ -8,37 +8,37 @@ body {
     margin: 15px 0;
 }
 
-nav .buttons-group {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  position: relative;
-}
+nav {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        position: relative;
+    }
 
-nav .buttons-group .menu-item {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 12px 8px;
-  position: relative;
-  align-self: stretch;
-  flex: 0 0 auto;
-}
+    nav .menu-item {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 12px 8px;
+        position: relative;
+        align-self: stretch;
+        flex: 0 0 auto;
+    }
 
-nav .buttons-group .text-wrapper {
-  position: relative;
-  width: fit-content;
-  margin-top: -1px;
-  font-family: var(--button-m-font-family);
-  font-weight: var(--button-m-font-weight);
-  color: var(--blue-gray400);
-  font-size: var(--button-m-font-size);
-  letter-spacing: var(--button-m-letter-spacing);
-  line-height: var(--button-m-line-height);
-  white-space: nowrap;
-  font-style: var(--button-m-font-style);
-}
+    nav .text-wrapper {
+        position: relative;
+        width: fit-content;
+        margin-top: -1px;
+        font-family: var(--button-m-font-family);
+        font-weight: var(--button-m-font-weight);
+        color: var(--blue-gray400);
+        font-size: var(--button-m-font-size);
+        letter-spacing: var(--button-m-letter-spacing);
+        line-height: var(--button-m-line-height);
+        white-space: nowrap;
+        font-style: var(--button-m-font-style);
+    }
 
 
 #logo {
