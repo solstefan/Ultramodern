@@ -8,12 +8,38 @@ body {
     margin: 15px 0;
 }
 
-header {
-    display: flex;
-    align-items: center; /* Vertically center the logo and nav */
-    justify-content: space-between; /* Distribute space between the logo and nav */
-    padding: 10px; /* Adjust as needed */
+nav .buttons-group {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  position: relative;
 }
+
+nav .buttons-group .menu-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 8px;
+  position: relative;
+  align-self: stretch;
+  flex: 0 0 auto;
+}
+
+nav .buttons-group .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--button-m-font-family);
+  font-weight: var(--button-m-font-weight);
+  color: var(--blue-gray400);
+  font-size: var(--button-m-font-size);
+  letter-spacing: var(--button-m-letter-spacing);
+  line-height: var(--button-m-line-height);
+  white-space: nowrap;
+  font-style: var(--button-m-font-style);
+}
+
 
 #logo {
     width: 100px; /* Adjust the width of the logo */
@@ -38,23 +64,6 @@ p {
     margin: 0 auto; /* Center the container */
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
-    margin-right: 20px; /* Adjust the spacing between navigation options */
-}
-
-nav a {
-    text-decoration: none;
-    color: #333333; /* Set your desired text color */
-    font-weight: bold;
-    font-size: 15px; /* Adjust the font size */
-}
 
 .special-paragraph {
     font-size: 12px;
