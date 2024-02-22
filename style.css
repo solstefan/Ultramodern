@@ -13,8 +13,6 @@ header {
     align-items: center; /* Vertically center the logo and nav */
     justify-content: space-between; /* Distribute space between the logo and nav */
     padding: 10px; /* Adjust as needed */
-    background-color: #131416; /* Set your desired background color */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow */
 }
 
 #logo {
