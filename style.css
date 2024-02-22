@@ -116,24 +116,21 @@ nav a {
     margin-right: 20px; /* Adjust margin between list items */
 }
 
-/* Add this to style social links */
-.social-links {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px; /* Adjust the margin as needed */
+.blue-button {
+    background-color: #3498db; /* Blue color, you can change it as per your design */
+    color: #ffffff; /* Text color */
+    border: none;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 2px; /* Corner radius */
+    box-shadow: 0 2px 4px rgba(52, 152, 219, 0.5); /* Drop shadow */
+    cursor: pointer;
+    font-size: 16px; /* Adjust font size */
 }
 
-.social-square {
-    width: 40px;
-    height: 40px;
-    background-color: #2C2C2C; /* Set the background color */
-    margin: 0 10px; /* Adjust the spacing between social squares */
-    border-radius: 8px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.blue-button:hover {
+    background-color: #2980b9; /* Change color on hover if desired */
 }
+
 
 @media only screen and (max-width: 600px) {
     body {
