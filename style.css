@@ -38,7 +38,10 @@ a {
             font-size: 16px;
         }
 
-
+ .divider {
+            border-bottom: 1px solid #444; /* Dark grey color for the divider */
+            margin: 20px 0; /* Adjust the margin to control the spacing around the divider */
+        }
 
 h1 {
     font-size: 14px;
