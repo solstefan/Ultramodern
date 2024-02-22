@@ -157,7 +157,7 @@ p {
     }
 
     #logo {
-        height: auto; /* Set height to auto to maintain the original aspect ratio */
+        height: 60px; /* Reduce the height of the logo for better fit on small screens */
     }
 
     .hero-section img {
