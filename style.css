@@ -15,7 +15,7 @@ a {
 
         #logo {
             width: auto; /* Allow the logo to adjust its width */
-            height: 80px; /* Set a fixed height for the logo */
+            height: 65px; /* Set a fixed height for the logo */
         }
 
 
@@ -81,9 +81,10 @@ p {
 }
 
 .logo {
-  width: 50px;
-  height: 50px;
+    width: 65px;
+    height: 65px;
 }
+
 
 .content-container {
   align-self: stretch;
