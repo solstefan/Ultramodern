@@ -73,6 +73,7 @@ p {
     display: flex;
     justify-content: flex-start; /* Align content to the left */
     align-items: center; /* Center content vertically */
+    padding-left: 10px; /* Adjust the padding-left value to your preference */
 }
 
 .logo {
