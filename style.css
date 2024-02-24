@@ -55,18 +55,19 @@ p {
     margin: 10px 0; /* Add margin to separate paragraphs */
 }
 
+/* Add these styles to your existing styles.css file */
+
 .hero-section {
     position: relative;
+}
+
+.hero-image {
+    display: none;
 }
 
 .desktop-image {
     display: block;
 }
-
-.mobile-image {
-    display: none;
-}
-
 
 
 .special-paragraph {
@@ -193,14 +194,14 @@ p {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .desktop-image {
         display: none;
     }
 
     .mobile-image {
         display: block;
-    } 
+    }
     
     body {
         margin: 10px; /* Adjust margin for better readability on small screens */
