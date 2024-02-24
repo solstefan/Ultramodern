@@ -56,9 +56,17 @@ p {
 }
 
 .hero-section {
-    max-width: 1440px; /* Adjust the value based on your design preferences */
-    margin: 0 auto; /* Center the container */
+    position: relative;
 }
+
+.desktop-image {
+    display: block;
+}
+
+.mobile-image {
+    display: none;
+}
+
 
 
 .special-paragraph {
@@ -186,6 +194,14 @@ p {
 
 
 @media only screen and (max-width: 600px) {
+    .desktop-image {
+        display: none;
+    }
+
+    .mobile-image {
+        display: block;
+    } 
+    
     body {
         margin: 10px; /* Adjust margin for better readability on small screens */
     }
