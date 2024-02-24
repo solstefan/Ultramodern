@@ -69,7 +69,7 @@ p {
 .logo-container {
     width: 55px;
     height: 55px;
-    box-shadow: 0px 0px 16.45px rgba(89, 29, 221, 0.75);
+    box-shadow: 0px 0px 0px rgba(89, 29, 221, 0.75);
     display: flex;
     justify-content: flex-start; /* Align content to the left */
     align-items: center; /* Center content vertically */
