@@ -68,6 +68,71 @@ p {
     /* Add any other styles you want for special paragraphs */
 }
 
+.container {
+  width: 1400px;
+  height: 410px;
+  padding: 93px 60px 60px;
+  background: rgba(6, 5, 7, 0.80);
+  box-shadow: 0px 0.5px 0px rgba(255, 255, 255, 0.50) inset;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.logo-container {
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px 0px 36.45px rgba(89, 29, 221, 0.75);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.content-container {
+  align-self: stretch;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.title {
+  color: #ECECEC;
+  font-size: 32px;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 41.60px;
+  word-wrap: break-word;
+}
+
+.description {
+  width: 971px;
+  color: #ECECEC;
+  font-size: 23px;
+  font-family: Inter;
+  font-weight: 300;
+  line-height: 34.50px;
+  word-wrap: break-word;
+}
+
+.additional-content {
+  align-self: stretch;
+  padding-top: 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+}
+
 
 .design-container {
     display: flex;
