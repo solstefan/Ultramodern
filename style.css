@@ -191,7 +191,7 @@ p {
     }
 
     #logo {
-        height: 60px; /* Reduce the height of the logo for better fit on small screens */
+        height: 50px; /* Reduce the height of the logo for better fit on small screens */
     }
 
     .hero-section img {
