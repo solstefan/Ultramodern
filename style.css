@@ -179,7 +179,9 @@ p {
     }
 
     .container {
-        padding: 15px;
+        width: 90%; /* Adjust width for responsiveness */
+        max-width: none; /* Remove the maximum width for smaller screens */
+        padding: 15px; /* Adjust padding for better spacing on small screens */
     }
 
     .design-card {
@@ -190,6 +192,7 @@ p {
         padding: 15px;
     }
 }
+
 
 
 
