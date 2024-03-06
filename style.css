@@ -97,10 +97,10 @@ p {
   width: 543px;
   text-align: center;
   color: #696C7D;
-  font-size: 68px;
+  font-size: 58px;
   font-family: Inter;
   font-weight: 600;
-  line-height: 83.60px;
+  line-height: 73.60px;
   word-wrap: break-word;
 }
 
@@ -201,12 +201,6 @@ p {
         height: 50px; /* Reduce the height of the logo for better fit on small screens */
     }
  
-    .hero-section img {
-        width: 100%; /* Make the image fill the width of the container */
-        height: auto; /* Maintain the aspect ratio and ensure a responsive height */
-        display: block; /* Remove any extra spacing below the image */
-        margin: 0 auto; /* Center the image horizontally */
-    }
 
 
     h1 {
