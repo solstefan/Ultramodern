@@ -222,10 +222,12 @@ p {
         padding: 10px; /* Add padding to the pattern container for better spacing on small screens */
     }
 
-    .design-card {
-        width: calc(100% - 20px); /* Make the design cards full width with some margin on small screens */
-        margin: 10px 0; /* Adjust the margin between design cards on small screens */
+    .design-card img {
+        width: 100%; /* Make the image fill the width of the container */
+        height: auto; /* Maintain the aspect ratio and ensure a responsive height */
+        border-radius: 8px 8px 0 0;
     }
+
 
     .footer {
     text-align: center;
