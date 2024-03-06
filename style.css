@@ -129,6 +129,14 @@ button:hover {
   gap: 16px;
 }
 
+.divider {
+  width: 100%;
+  height: 1.5px;
+  background-color: darkgrey;
+  margin: 15px 0; /* Adjust the margin as needed */
+}
+
+
 
 .design-container {
     display: flex;
