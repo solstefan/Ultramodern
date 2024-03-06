@@ -44,13 +44,13 @@ a {
         }
 
 h1 {
-    font-size: 14px;
+    font-size: 34px;
     margin: 0;
     font-weight: lighter;
 }
 
 p {
-    font-size: 14px; /* Adjust the font size for paragraphs */
+    font-size: 15px; /* Adjust the font size for paragraphs */
     line-height: 1.5; /* Set the line height for better readability */
     margin: 10px 0; /* Add margin to separate paragraphs */
 }
