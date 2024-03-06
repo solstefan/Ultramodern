@@ -2,7 +2,7 @@
 
 body {
     background-color: #111212;
-    color: #ffffff;
+    color: #cbd1cc;
     font-family: 'Inter', sans-serif;
     text-align: center;
     margin: 15px 0;
@@ -46,7 +46,7 @@ a {
 h1 {
     font-size: 34px;
     margin: 0;
-    font-weight: lighter;
+    font-weight: medium;
 }
 
 p {
