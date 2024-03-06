@@ -210,9 +210,14 @@ p {
         height: 50px; /* Reduce the height of the logo for better fit on small screens */
     }
 
+   @media only screen and (max-width: 768px) {
     .hero-section img {
-        width: 100%; /* Make the hero image fill the width of the screen on small screens */
+        width: 100%; /* Make the image fill the width of the container */
+        height: auto; /* Maintain the aspect ratio and ensure a responsive height */
+        display: block; /* Remove any extra spacing below the image */
+        margin: 0 auto; /* Center the image horizontally */
     }
+
 
     h1 {
         font-size: 16px; /* Adjust the font size for better readability on small screens */
