@@ -200,8 +200,7 @@ p {
     #logo {
         height: 50px; /* Reduce the height of the logo for better fit on small screens */
     }
-
-   @media only screen and (max-width: 768px) {
+ 
     .hero-section img {
         width: 100%; /* Make the image fill the width of the container */
         height: auto; /* Maintain the aspect ratio and ensure a responsive height */
