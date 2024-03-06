@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 body {
-    background-color: #070708;
-    color: #070708;
+    background-color: #111212;
+    color: #ffffff;
     font-family: 'Inter', sans-serif;
     text-align: center;
     margin: 15px 0;
@@ -16,15 +16,41 @@ body {
             background-color: #131416; /* Add a background color to the nav */
         }
 
+a {
+            text-decoration: none; /* Removes underline */
+            color: #d2d5d9; /* Set your desired color */
+        }
+
+        #logo {
+            width: auto; /* Allow the logo to adjust its width */
+            height: 40px; /* Set a fixed height for the logo */
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        li {
+            color: white; /* Set the color of the text to white */
+            font-size: 16px;
+        }
+
+ .divider {
+            border-bottom: 1px solid #444; /* Dark grey color for the divider */
+            margin: 20px 0; /* Adjust the margin to control the spacing around the divider */
+        }
 
 h1 {
-    font-size: 34px;
+    font-size: 14px;
     margin: 0;
     font-weight: lighter;
 }
 
 p {
-    font-size: 15px; /* Adjust the font size for paragraphs */
+    font-size: 14px; /* Adjust the font size for paragraphs */
     line-height: 1.5; /* Set the line height for better readability */
     margin: 10px 0; /* Add margin to separate paragraphs */
 }
@@ -35,6 +61,15 @@ p {
 }
 
 /* Add these styles to your existing styles.css file */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the form horizontally */
+    max-width: 300px;
+    margin: 0 auto;
+}
+
 input {
     padding: 10px;
     margin-bottom: 16px;
@@ -128,14 +163,6 @@ button:hover {
   align-items: flex-start;
   gap: 16px;
 }
-
-.divider {
-  width: 100%;
-  height: 1.5px;
-  background-color: darkgrey;
-  margin: 15px 0; /* Adjust the margin as needed */
-}
-
 
 
 .design-container {
