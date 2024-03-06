@@ -87,6 +87,6 @@
     }
 
     .container {
-        padding: 10px;
-    }
+         width: 540px;
+         height: 250px;
 }
