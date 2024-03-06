@@ -44,7 +44,7 @@ a {
         }
 
 h1 {
-    font-size: 34px;
+    font-size: 54px;
     margin: 0;
     font-weight: medium;
 }
@@ -234,7 +234,7 @@ button:hover {
     }
 
     h1 {
-        font-size: 16px; /* Adjust the font size for better readability on small screens */
+        font-size: 33px; /* Adjust the font size for better readability on small screens */
     }
 
     .pattern-container {
