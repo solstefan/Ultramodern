@@ -218,7 +218,7 @@ p {
     }
        
 .container {
-        width: 300px; /* Set to 100% to fill the width of the screen */
+        width: 3500px; /* Set to 100% to fill the width of the screen */
         height: auto; /* Allow height to adjust based on content */
         padding: 10px; /* Adjust padding for better spacing on small screens */
         background: rgba(6, 5, 7, 0.80);
