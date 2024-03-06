@@ -218,7 +218,7 @@ p {
     }
        
 .container {
-        width: 100%; /* Set to 100% to fill the width of the screen */
+        width: 550px; /* Set to 100% to fill the width of the screen */
         height: auto; /* Allow height to adjust based on content */
         padding: 20px; /* Adjust padding for better spacing on small screens */
         background: rgba(6, 5, 7, 0.80);
@@ -229,6 +229,7 @@ p {
         justify-content: flex-start;
         align-items: center; /* Center content on small screens */
     }
+    
     .design-card {
     width: 300px;
     margin: 10px;
