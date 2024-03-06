@@ -94,10 +94,10 @@ p {
 
 
 .title {
-  width: 743px;
+  width: 543px;
   text-align: center;
   color: #696C7D;
-  font-size: 88px;
+  font-size: 68px;
   font-family: Inter;
   font-weight: 600;
   line-height: 83.60px;
@@ -112,7 +112,7 @@ p {
   width: 428px;
   text-align: center;
   color: #A4A5A9;
-  font-size: 18px;
+  font-size: 17px;
   font-family: Inter;
   font-weight: 400;
   line-height: 19.80px;
@@ -218,7 +218,7 @@ p {
     }
        
 .container {
-        width: 3500px; /* Set to 100% to fill the width of the screen */
+        width:100%; /* Set to 100% to fill the width of the screen */
         height: auto; /* Allow height to adjust based on content */
         padding: 10px; /* Adjust padding for better spacing on small screens */
         background: rgba(6, 5, 7, 0.80);
