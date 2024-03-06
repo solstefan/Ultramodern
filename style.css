@@ -1,37 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-body {
-    background-color: #040505;
-    color: #ffffff;
-    font-family: 'Inter', sans-serif;
-    text-align: center;
-    margin: 15px 0;
-}
-
-a {
-            text-decoration: none; /* Removes underline */
-            color: #d2d5d9; /* Set your desired color */
-        }
-
-
- .divider {
-            border-bottom: 1px solid #444; /* Dark grey color for the divider */
-            margin: 20px 0; /* Adjust the margin to control the spacing around the divider */
-        }
-
-h1 {
-    font-size: 14px;
-    margin: 0;
-    font-weight: lighter;
-}
-
-p {
-    font-size: 16px; /* Adjust the font size for paragraphs */
-    line-height: 1.5; /* Set the line height for better readability */
-    margin: 10px 0; /* Add margin to separate paragraphs */
-}
-
-/* Add these styles to your existing styles.css file */
 
 .hero-section {
     position: relative;
@@ -129,127 +97,16 @@ p {
 }
 
 
-.design-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.design-card {
-    width: 300px;
-    margin: 10px;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-}
-
-.design-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px 8px 0 0;
-}
-
-.design-info {
-    padding: 10px;
-    text-align: center;
-    background: linear-gradient(45deg, #FFB6C1, #87CEEB);
-    -webkit-background-clip: text;
-    color: transparent;
-}
-
-.design-info p {
-    font-size: 11px;
-    margin: 0;
-}
-
-.single-line-text {
-    white-space: nowrap; /* Prevent line breaks */
-}
-
-.single-line-text ul {
-    list-style: none; /* Remove default list styles */
-    padding: 5px; /* Remove default padding */
-    white-space: nowrap; /* Prevent line breaks within the list */
-}
-
-.single-line-text li {
-    display: inline-block; /* Display list items horizontally */
-    margin-right: 20px; /* Adjust margin between list items */
-}
-
-
 @media only screen and (max-width: 768px) {
-    .desktop-image {
-        display: none;
+    .title {
+        font-size: 20px;
     }
 
-    .mobile-image {
-        display: block;
-    }
-    
-    body {
-        margin: 10px; /* Adjust margin for better readability on small screens */
+    .description {
+        font-size: 14px;
     }
 
-    header {
-        text-align: center; /* Center the logo on small screens */
+    .container {
+        padding: 10px;
     }
-
-    #logo {
-        height: 50px; /* Reduce the height of the logo for better fit on small screens */
-    }
- 
-
-
-    h1 {
-        font-size: 16px; /* Adjust the font size for better readability on small screens */
-    }
-
-    .pattern-container {
-        padding: 10px; /* Add padding to the pattern container for better spacing on small screens */
-    }
-       
-.container {
-        width:100%; /* Set to 100% to fill the width of the screen */
-        height: auto; /* Allow height to adjust based on content */
-        padding: 10px; /* Adjust padding for better spacing on small screens */
-        background: rgba(6, 5, 7, 0.80);
-        box-shadow: 0px 0.5px 0px rgba(255, 255, 255, 0.50) inset;
-        border-radius: 10px; /* Smaller border radius for a cleaner look */
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center; /* Center content on small screens */
-    }
-    
-    .design-card {
-    width: 300px;
-    margin: 10px;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
 }
-
-    .design-card img {
-        width: 100%; /* Make the image fill the width of the container */
-        height: auto; /* Maintain the aspect ratio and ensure a responsive height */
-        border-radius: 8px 8px 0 0;
-    }
-
-
-    .footer {
-    text-align: center;
-    padding: 10px;
-    color: white;
-    border-top: 0.5px dotted #888; /* Dotted line styling */
-    font-size: 11px;
-}
-
-
-
-
-
-
