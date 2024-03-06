@@ -92,15 +92,6 @@ p {
   display: flex;
 }
 
-.content {
-  align-self: stretch;
-  height: 306px;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 12px;
-  display: flex;
-}
 
 .title {
   width: 743px;
