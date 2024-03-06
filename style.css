@@ -1,26 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 
-.hero-section {
-    position: relative;
-}
-
-.hero-image {
-    display: none;
-}
-
-.desktop-image {
-    display: block;
-}
-
-
-.special-paragraph {
-    font-size: 15px;
-    font-weight: lighter;
-    color: #ECECEC; /* Set a specific color */
-    /* Add any other styles you want for special paragraphs */
-}
-
 .container {
   width: 1440px;
   height: 350px;
