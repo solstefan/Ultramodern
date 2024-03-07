@@ -58,7 +58,7 @@ p {
 .hero-section {
     max-width: 1440px; /* Adjust the value based on your design preferences */
     margin: 0 auto; /* Center the container */
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 header {
@@ -92,7 +92,7 @@ input {
     padding: 10px; /* Decreased padding */
     border-radius: 12px;
     border: 1px solid #313233;
-    margin-bottom: 5px; /* Decreased margin */
+    margin-bottom: 8px; /* Decreased margin */
     box-sizing: border-box;
     display: inline-block;
 }
