@@ -61,6 +61,15 @@ p {
     padding-bottom: 40px;
 }
 
+header {
+    background-color: #0b0e17; /* Change this to your desired background color */
+    padding: 20px; /* Add padding to create space around the logo */
+    color: #ffffff; /* Set text color to contrast with the background */
+    display: flex; /* Use flexbox for layout control */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space items evenly */
+}
+
 /* Add these styles to your existing styles.css file */
 
 form {
@@ -251,7 +260,8 @@ button:hover {
     }
 
     header {
-        text-align: center; /* Center the logo on small screens */
+        background-color: #0b0e17; /* Change this to your desired background color */
+    padding: 20px; /* Add padding to create space around the logo */
     }
     
     .feature-box {
