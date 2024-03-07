@@ -95,6 +95,7 @@ input {
     margin-bottom: 8px; /* Decreased margin */
     box-sizing: border-box;
     display: inline-block;
+    background-color: #000000;
 }
 
         .icon {
@@ -267,7 +268,8 @@ button:hover {
     .feature-box {
                 display: block; /* On mobile, stack feature boxes */
                 width: 100%; /* Take up full width on mobile */
-                margin-bottom: 6px;
+                margin-bottom: 8px;
+                background-color: #000000;
             }
 
     #logo {
