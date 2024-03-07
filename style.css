@@ -44,7 +44,7 @@ a {
         }
 
 h1 {
-    font-size: 54px;
+    font-size: 58px;
     margin: 0;
     font-weight: medium;
 }
@@ -249,6 +249,7 @@ button:hover {
     .feature-box {
                 display: block; /* On mobile, stack feature boxes */
                 width: 100%; /* Take up full width on mobile */
+                margin-bottom: 6px;
             }
 
     #logo {
@@ -257,11 +258,11 @@ button:hover {
 
     .hero-section img {
         width: 100%; /* Make the hero image fill the width of the screen on small screens */
-        padding-bottom: 20px;
+        padding-bottom: 40px;
     }
 
     h1 {
-        font-size: 33px; /* Adjust the font size for better readability on small screens */
+        font-size: 38px; /* Adjust the font size for better readability on small screens */
     }
 
     .pattern-container {
