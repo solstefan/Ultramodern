@@ -81,12 +81,12 @@ input {
             width: 300px;
             padding: 20px;
             border-radius: 10px;
-            border: 1px solid #ddd; /* Add a border for a neat look */
+            border: 1px solid #39383b; /* Add a border for a neat look */
         }
 
         .icon {
-            width: 50px; /* Adjust as needed */
-            height: 50px; /* Adjust as needed */
+            width: 75px; /* Adjust as needed */
+            height: 75px; /* Adjust as needed */
             margin-right: 10px; /* Add space between icon and text */
             display: inline-block;
             vertical-align: middle;
