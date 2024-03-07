@@ -239,7 +239,7 @@ button:hover {
 
 @media only screen and (max-width: 600px) {
     body {
-        margin: 10px; /* Adjust margin for better readability on small screens */
+        margin: 6px; /* Adjust margin for better readability on small screens */
     }
 
     header {
