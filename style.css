@@ -77,15 +77,31 @@ input {
 }
 
 
-button {
-    padding: 10px;
-    background-color: #000; /* Black background */
-    color: #fff; /* White text color */
-    border: 2px solid #333; /* Dark grey outline */
-    border-radius: 6px; /* 6px corner radius */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Drop shadow */
-    cursor: pointer;
-}
+.feature-box {
+            width: 300px;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #ddd; /* Add a border for a neat look */
+        }
+
+        .icon {
+            width: 50px; /* Adjust as needed */
+            height: 50px; /* Adjust as needed */
+            margin-right: 10px; /* Add space between icon and text */
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .feature-text {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .feature-image {
+            width: 100%;
+            height: auto;
+            margin-top: 10px; /* Add space between text and image */
+        }
 
 button:hover {
     background-color: #111; /* Darken the background on hover */
