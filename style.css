@@ -123,9 +123,9 @@ button:hover {
 
 
 .special-paragraph {
-    font-size: 14px;
-    font-weight: ligther;
-    color: #A5B4D3; /* Set a specific color */
+    font-size: 15px;
+    font-weight: normal;
+    color: #a9aaab; /* Set a specific color */
     /* Add any other styles you want for special paragraphs */
 }
 
