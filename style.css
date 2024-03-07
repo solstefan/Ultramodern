@@ -236,6 +236,14 @@ button:hover {
     margin-right: 20px; /* Adjust margin between list items */
 }
 
+.footer {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-top: 0.5px dotted #888; /* Dotted line styling */
+    font-size: 11px;
+}
+
 
 @media only screen and (max-width: 600px) {
     body {
