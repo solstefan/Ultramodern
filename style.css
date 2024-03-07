@@ -12,7 +12,7 @@ body {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 5px;
+            padding: 4px;
             background-color: #131416; /* Add a background color to the nav */
         }
 
@@ -58,7 +58,7 @@ p {
 .hero-section {
     max-width: 1440px; /* Adjust the value based on your design preferences */
     margin: 0 auto; /* Center the container */
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 /* Add these styles to your existing styles.css file */
@@ -83,7 +83,7 @@ input {
             padding: 20px;
             border-radius: 12px;
             border: 1px solid #3f4145; /* Add a border for a neat look */
-            margin-bottom: 5px; /* Add margin to create space between feature boxes */
+            margin-bottom: 10px; /* Add margin to create space between feature boxes */
             box-sizing: border-box; /* Include padding and border in the box sizing */
             display: inline-block; /* Display boxes inline on desktop */
         }
