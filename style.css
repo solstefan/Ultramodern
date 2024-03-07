@@ -81,9 +81,9 @@ input {
 .feature-box {
             width: 300px;
             padding: 20px;
-            border-radius: 10px;
-            border: 1px solid #39383b; /* Add a border for a neat look */
-            margin-bottom: 10px; /* Add margin to create space between feature boxes */
+            border-radius: 12px;
+            border: 1px solid #3f4145; /* Add a border for a neat look */
+            margin-bottom: 5px; /* Add margin to create space between feature boxes */
             box-sizing: border-box; /* Include padding and border in the box sizing */
             display: inline-block; /* Display boxes inline on desktop */
         }
