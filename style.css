@@ -266,6 +266,7 @@ button:hover {
     }
     
     .feature-box {
+                border: 1px solid #313233;
                 display: block; /* On mobile, stack feature boxes */
                 width: 100%; /* Take up full width on mobile */
                 margin-bottom: 8px;
