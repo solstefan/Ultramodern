@@ -63,7 +63,7 @@ p {
 
 header {
     background-color: #050405; /* Change this to your desired background color */
-    padding: 18px; /* Add padding to create space around the logo */
+    padding: 10px; /* Add padding to create space around the logo */
     color: #ffffff; /* Set text color to contrast with the background */
     display: flex; /* Use flexbox for layout control */
     align-items: center; /* Center items vertically */
@@ -261,8 +261,8 @@ button:hover {
     }
 
     header {
-        background-color: #0510a8; /* Change this to your desired background color */
-    padding: 15px; /* Add padding to create space around the logo */
+        background-color: #050405; /* Change this to your desired background color */
+    padding: 10px; /* Add padding to create space around the logo */
     }
     
     .feature-box {
