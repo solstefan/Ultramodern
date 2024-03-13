@@ -58,7 +58,7 @@ p {
 .hero-section {
     max-width: 1440px; /* Adjust the value based on your design preferences */
     margin: 0 auto; /* Center the container */
-    padding-bottom: 45px;
+    padding-bottom: 42px;
 }
 
 header {
