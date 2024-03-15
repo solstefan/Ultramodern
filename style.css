@@ -251,26 +251,24 @@ input {
     font-size: 11px;
 }
 
-button {
-  border: calc(var(--border) * 1px) solid transparent;
-  background:
-    linear-gradient(#000, #000) padding-box,
-    linear-gradient(#000 40%, #0000 60%) border-box,
-    conic-gradient(from var(--angle) in hsl longer hue, var(--spectrum)) border-box;
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border: 2px solid #4CAF50; /* Green border */
+  border-radius: 25px; /* Rounded corners */
+  background-color: #4CAF50; /* Green background */
+  background-image: linear-gradient(to bottom right, #4CAF50, #2E8B57); /* Gradient */
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* Text shadow */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Drop shadow */
+  transition: all 0.3s ease; /* Smooth transition */
 }
 
-button::before {
-  content: "";
-  height: 50%;
-  width: 100%; /* Corrected syntax */
-  background:
-    conic-gradient(from var(--angle) in hsl longer hue, var(--spectrum)) 50% 100% / 200% 200% border-box;
-}
-
-@keyframes spin {
-  to {
-    --angle: 360deg;
-  }
+/* Hover effect */
+.button:hover {
+  background-color: #3c3c41; /* Darker green */
+  border-color: #0a2a80; /* Darker green border */
 }
 
 @property --angle {
