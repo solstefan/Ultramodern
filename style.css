@@ -263,6 +263,7 @@ input {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* Text shadow */
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Drop shadow */
   transition: all 0.3s ease; /* Smooth transition */
+margin-bottom: 20px;
 }
 
 /* Hover effect */
@@ -271,11 +272,6 @@ input {
   border-color: #0a2a80; /* Darker green border */
 }
 
-@property --angle {
-  inherits: true;
-  initial-value: 0deg;
-  syntax: '<angle>';
-}
 
 
 @media only screen and (max-width: 600px) {
