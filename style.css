@@ -254,6 +254,21 @@ button:hover {
     font-size: 11px;
 }
 
+button {
+  animation: spin infinite linear 2s;
+  background: conic-gradient(from var(--angle) in hsl 
+  longer hue, var(--range)) border-box;
+}
+@​keyframes spin { to { --angle: 360deg; }}
+
+The trick is defining a custom property using @​property (Supported in Chrome && Safari. Landing in Firefox 126 Nightly 🤞)
+
+@​property --angle {
+  inherits: true;
+  initial-value: 0deg;
+  syntax: '<angle>';
+}
+
 
 @media only screen and (max-width: 600px) {
     body {
