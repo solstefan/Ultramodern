@@ -90,8 +90,8 @@ input {
 .feature-box {
     width: 300px;
     padding: 10px; /* Decreased padding */
-    border-radius: 12px;
-    border: 1px solid #313233;
+    border-radius: 11px;
+    border: 1px solid #0E0E11;
     margin-bottom: 18px; /* Decreased margin */
     box-sizing: border-box;
     display: inline-block;
