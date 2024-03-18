@@ -109,8 +109,8 @@ input {
         .feature-text {
             display: inline-block;
             vertical-align: middle;
-            font-size: 15px;
-            font-weight: medium;
+            font-size: 14px;
+            font-weight: regular;
         }
 
         .feature-image {
