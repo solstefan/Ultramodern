@@ -98,13 +98,6 @@ input {
     background-color: #000000;
 }
 
-        .icon {
-            width: 75px;
-            height: 75px;
-            margin-right: 10px;
-            display: inline-block;
-            vertical-align: middle;
-        }
 
         .feature-text {
             display: inline-block;
