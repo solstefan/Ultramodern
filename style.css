@@ -22,8 +22,9 @@ a {
         }
 
         #logo {
-            width: 60px; /* Allow the logo to adjust its width */
-            height: 60px; /* Set a fixed height for the logo */
+            width: 50px; /* Allow the logo to adjust its width */
+            height: 40px; /* Set a fixed height for the logo */
+            margin: 0 auto;
         }
 
         ul {
