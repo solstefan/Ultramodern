@@ -12,7 +12,7 @@ body {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 3px;
+            padding: 4px;
             background-color: #131416; /* Add a background color to the nav */
         }
 
@@ -110,7 +110,7 @@ input {
         .feature-image {
             width: 100%;
             height: auto;
-            margin-top: 5px;
+            margin-top: 3px;
         }
 
 
