@@ -41,7 +41,7 @@ a {
 
  .divider {
             border-bottom: 1px solid #444; /* Dark grey color for the divider */
-            margin: 20px 0; /* Adjust the margin to control the spacing around the divider */
+            margin: 10px 0; /* Adjust the margin to control the spacing around the divider */
         }
 
 h1 {
@@ -64,7 +64,7 @@ p {
 
 header {
     background-color: #050405; /* Change this to your desired background color */
-    padding: 10px; /* Add padding to create space around the logo */
+    padding: 12px; /* Add padding to create space around the logo */
     color: #ffffff; /* Set text color to contrast with the background */
     display: flex; /* Use flexbox for layout control */
     align-items: center; /* Center items vertically */
@@ -240,7 +240,7 @@ input {
 .footer {
     text-align: center;
     padding: 10px;
-    color: black;
+    color: white;
     border-top: 0.5px dotted #888; /* Dotted line styling */
     font-size: 11px;
 }
@@ -296,7 +296,7 @@ margin-bottom: 20px;
     }
 
     h1 {
-        font-size: 38px; /* Adjust the font size for better readability on small screens */
+        font-size: 44px; /* Adjust the font size for better readability on small screens */
     }
 
     .pattern-container {
@@ -311,7 +311,7 @@ margin-bottom: 20px;
     .footer {
     text-align: center;
     padding: 10px;
-    color: black;
+    color: white;
     border-top: 0.5px dotted #888; /* Dotted line styling */
     font-size: 11px;
 }
