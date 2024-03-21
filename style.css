@@ -241,7 +241,7 @@ input {
     text-align: center;
     padding: 10px;
     color: white;
-    border-top: 0.5px dotted #888; /* Dotted line styling */
+    border-top: 0.3px dotted #888; /* Dotted line styling */
     font-size: 11px;
 }
 
