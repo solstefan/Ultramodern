@@ -240,7 +240,7 @@ input {
 .footer {
     text-align: center;
     padding: 10px;
-    color: white;
+    color: black;
     border-top: 0.5px dotted #888; /* Dotted line styling */
     font-size: 11px;
 }
@@ -311,7 +311,7 @@ margin-bottom: 20px;
     .footer {
     text-align: center;
     padding: 10px;
-    color: white;
+    color: black;
     border-top: 0.5px dotted #888; /* Dotted line styling */
     font-size: 11px;
 }
