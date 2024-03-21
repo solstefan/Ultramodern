@@ -40,7 +40,7 @@ a {
         }
 
  .divider {
-            border-bottom: 1px solid #444; /* Dark grey color for the divider */
+            border-bottom: 1px solid #0E0E11; /* Dark grey color for the divider */
             margin: 10px 0; /* Adjust the margin to control the spacing around the divider */
         }
 
@@ -241,7 +241,7 @@ input {
     text-align: center;
     padding: 10px;
     color: white;
-    border-top: 0.3px dotted #888; /* Dotted line styling */
+    border-top: 0.3px dotted #0E0E11; /* Dotted line styling */
     font-size: 11px;
 }
 
