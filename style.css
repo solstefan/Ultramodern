@@ -89,7 +89,7 @@ input {
 
 
 .feature-box {
-    width: 300px;
+    width: 285px;
     padding: 10px; /* Decreased padding */
     border-radius: 12px;
     border: 1px solid #0E0E11;
@@ -295,7 +295,7 @@ margin-bottom: 20px;
                 display: block; /* On mobile, stack feature boxes */
                 width: 100%; /* Take up full width on mobile */
                 margin-bottom: 12px;
-                background-color: #000000;
+                background-color: #050506;
             }
 
     #logo {
