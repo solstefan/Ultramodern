@@ -288,6 +288,7 @@ margin-bottom: 20px;
     header {
         background-color: #050405; /* Change this to your desired background color */
     padding: 10px; /* Add padding to create space around the logo */
+        padding-bottom: 5px;
     }
     
     .feature-box {
