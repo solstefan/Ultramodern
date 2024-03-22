@@ -325,9 +325,10 @@ header.scrolled {
                 background-color: #050506;
             }
 
-    #logo {
+     #logo {
         height: 40px; /* Reduce the height of the logo for better fit on small screens */
-        margin-right: auto;
+        margin-right: auto; /* Align the logo to the left */
+        margin-left: 5px; /* Add some left margin for spacing */
     }
 
     .hero-section img {
