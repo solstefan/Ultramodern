@@ -97,19 +97,19 @@
         
     
 
-const header = document.querySelector('header');
+<script>
+        const header = document.querySelector('header');
 
-function handleScroll() {
-    if (window.scrollY > 0) {
-        // Add the "scrolled" class to the header when scrolled
-        header.classList.add('scrolled');
-    } else {
-        // Remove the "scrolled" class when at the top
-        header.classList.remove('scrolled');
-    }
-}
+        function handleScroll() {
+            if (window.scrollY > 0) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        }
 
-window.addEventListener('scroll', handleScroll);
+        window.addEventListener('scroll', handleScroll);
+    </script>
 
 
     
