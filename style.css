@@ -59,6 +59,7 @@ p {
 .hero-section {
     max-width: 1440px; /* Adjust the value based on your design preferences */
     margin: 0 auto; /* Center the container */
+    padding-top: 100px;
     padding-bottom: 40px;
 }
 
@@ -261,6 +262,7 @@ body::-webkit-scrollbar {
     text-align: center;
     padding: 10px;
     color: white;
+    margin-top: 50px;
     border-top: 0.3px dotted #0E0E11; /* Dotted line styling */
     font-size: 11px;
 }
@@ -313,7 +315,8 @@ margin-bottom: 20px;
 
     .hero-section img {
         width: 100%; /* Make the hero image fill the width of the screen on small screens */
-        padding-bottom: 80px;
+        padding-top: 100px;
+        padding-bottom: 50px;
     }
 
     h1 {
