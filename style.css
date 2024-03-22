@@ -24,6 +24,7 @@ a {
         #logo {
             width: 50px; /* Allow the logo to adjust its width */
             height: 40px; /* Set a fixed height for the logo */
+            margin-right: auto;
             margin-left: 10px
         }
 
@@ -328,7 +329,7 @@ header.scrolled {
      #logo {
         height: 40px; /* Reduce the height of the logo for better fit on small screens */
         margin-right: auto; /* Align the logo to the left */
-        margin-left: 10px; /* Add some left margin for spacing */
+        margin-left: 5px; /* Add some left margin for spacing */
     }
 
     .hero-section img {
