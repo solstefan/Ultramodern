@@ -237,6 +237,18 @@ input {
     margin-right: 20px; /* Adjust margin between list items */
 }
 
+/* Hide the scrollbar for all elements */
+body {
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+/* Hide the scrollbar for webkit browsers */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
 .footer {
     text-align: center;
     padding: 10px;
