@@ -332,12 +332,13 @@ header.scrolled {
 
     .hero-section img {
         width: 100%; /* Make the hero image fill the width of the screen on small screens */
-        padding-top: 100px;
+        padding-top: 50px;
         padding-bottom: 50px;
     }
 
     h1 {
         font-size: 42px; /* Adjust the font size for better readability on small screens */
+        padding-top: 50px;
     }
 
     .pattern-container {
