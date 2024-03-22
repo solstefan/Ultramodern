@@ -97,15 +97,20 @@
         
     
 
-    <script>
-    function navigateToDetails(designName, title, description) {
-        // Construct the URL with encoded parameters
-        const url = `page2.html?design=${encodeURIComponent(designName)}&title=${encodeURIComponent(title)}&description=${encodeURIComponent(description)}`;
+const header = document.querySelector('header');
 
-        // Navigate to the next page
-        window.location.href = url;
+function handleScroll() {
+    if (window.scrollY > 0) {
+        // Add the "scrolled" class to the header when scrolled
+        header.classList.add('scrolled');
+    } else {
+        // Remove the "scrolled" class when at the top
+        header.classList.remove('scrolled');
     }
-</script>
+}
+
+window.addEventListener('scroll', handleScroll);
+
 
     
 
