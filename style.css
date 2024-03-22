@@ -47,6 +47,7 @@ a {
 h1 {
     font-size: 58px;
     margin: 0;
+    padding-top: 50px;
     font-weight: medium;
 }
 
@@ -59,7 +60,7 @@ p {
 .hero-section {
     max-width: 1440px; /* Adjust the value based on your design preferences */
     margin: 0 auto; /* Center the container */
-    padding-top: 100px;
+    padding-top: 65px;
     padding-bottom: 40px;
 }
 
