@@ -25,7 +25,7 @@ a {
             width: 50px; /* Allow the logo to adjust its width */
             height: 40px; /* Set a fixed height for the logo */
             margin-right: auto;
-            margin-left: 10px
+            margin-left: 6px
         }
 
         ul {
@@ -61,8 +61,8 @@ p {
 .hero-section {
     max-width: 1440px; /* Adjust the value based on your design preferences */
     margin: 0 auto; /* Center the container */
-    padding-top: 65px;
-    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 header {
