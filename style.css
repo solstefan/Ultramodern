@@ -63,15 +63,23 @@ p {
 }
 
 header {
-    background-color: #050405; /* Change this to your desired background color */
+    background-color: rgba(5, 4, 5, 0.9); /* Use rgba for transparency, adjust the last value (0.9) to control the opacity */
     padding: 12px; /* Add padding to create space around the logo */
     color: #ffffff; /* Set text color to contrast with the background */
     display: flex; /* Use flexbox for layout control */
     align-items: center; /* Center items vertically */
     justify-content: space-between; /* Space items evenly */
+    position: fixed; /* Fix the header's position */
+    top: 0; /* Position the header at the top of the viewport */
+    width: 100%; /* Make the header span the entire width of the viewport */
+    z-index: 1000; /* Ensure the header stays above other content */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect for background color change */
 }
 
-/* Add these styles to your existing styles.css file */
+header.scrolled {
+    background-color: rgba(5, 4, 5, 0.7); /* Adjust the transparency and color as needed */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect for background color change */
+}
 
 form {
     display: flex;
