@@ -149,6 +149,7 @@ input {
   height: 40px;
   box-shadow: 0px 0px 36.45px rgba(89, 29, 221, 0.75);
   justify-content: center;
+    margin-right: auto;
   align-items: center;
   display: flex;
 }
@@ -156,6 +157,7 @@ input {
 .logo {
   width: 50px;
   height: 40px;
+    margin-right: auto;
 }
 
 .content-container {
@@ -325,6 +327,7 @@ header.scrolled {
 
     #logo {
         height: 40px; /* Reduce the height of the logo for better fit on small screens */
+        margin-right: auto;
     }
 
     .hero-section img {
