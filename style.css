@@ -64,7 +64,7 @@ p {
 }
 
 header {
-    background-color: rgba(5, 4, 5, 0.9); /* Use rgba for transparency, adjust the last value (0.9) to control the opacity */
+    background-color: rgba(5, 4, 5, 0.7); /* Use rgba for transparency, adjust the last value (0.9) to control the opacity */
     padding: 12px; /* Add padding to create space around the logo */
     color: #ffffff; /* Set text color to contrast with the background */
     display: flex; /* Use flexbox for layout control */
