@@ -61,8 +61,8 @@ p {
 .hero-section {
     max-width: 1440px; /* Adjust the value based on your design preferences */
     margin: 0 auto; /* Center the container */
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 header {
@@ -334,8 +334,8 @@ header.scrolled {
 
     .hero-section img {
         width: 100%; /* Make the hero image fill the width of the screen on small screens */
-        padding-top: 30px;
-        padding-bottom: 50px;
+        padding-top: 10px;
+        padding-bottom: 20px;
     }
 
     h1 {
