@@ -327,7 +327,7 @@ header.scrolled {
             }
 
      #logo {
-        height: 50px; /* Reduce the height of the logo for better fit on small screens */
+        height: 45px; /* Reduce the height of the logo for better fit on small screens */
         margin-right: auto; /* Align the logo to the left */
         margin-left: 5px; /* Add some left margin for spacing */
     }
