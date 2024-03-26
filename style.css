@@ -267,8 +267,8 @@ body::-webkit-scrollbar {
     padding: 10px;
     color: white;
     margin-top: 50px;
-    border-top: 0.3px dotted #0E0E11; /* Dotted line styling */
-    font-size: 11px;
+    border-top: 0.3px dotted #18181B; /* Dotted line styling */
+    font-size: 10px;
 }
 
 .button {
@@ -356,6 +356,6 @@ header.scrolled {
     text-align: center;
     padding: 10px;
     color: white;
-    border-top: 0.5px dotted #0E0E11; /* Dotted line styling */
-    font-size: 11px;
+    border-top: 0.5px dotted #18181B; /* Dotted line styling */
+    font-size: 10px;
 }
