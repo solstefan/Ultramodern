@@ -48,7 +48,7 @@ a {
 h1 {
     font-size: 58px;
     margin: 0;
-    padding-top: 50px;
+    padding-top: 60px;
     font-weight: medium;
 }
 
@@ -340,7 +340,7 @@ header.scrolled {
 
     h1 {
         font-size: 42px; /* Adjust the font size for better readability on small screens */
-        padding-top: 50px;
+        padding-top: 60px;
     }
 
     .pattern-container {
