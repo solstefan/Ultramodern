@@ -135,7 +135,7 @@ input {
 
 .special-paragraph {
     font-size: 15px;
-    font-weight: normal;
+    font-weight: lighter;
     padding-top: -10px;
     color: #a9aaab; /* Set a specific color */
     /* Add any other styles you want for special paragraphs */
