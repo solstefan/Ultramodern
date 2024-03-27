@@ -52,6 +52,11 @@ h1 {
     font-weight: medium;
 }
 
+h2 {
+            color: #333;
+    font-size: 18px;
+        }
+
 p {
     font-size: 14px; /* Adjust the font size for paragraphs */
     line-height: 1.5; /* Set the line height for better readability */
