@@ -55,8 +55,9 @@ h1 {
 h2 {
     color: #080AA8; /* Bright royal blue */
     font-size: 52px;
-    font-weight: lighter; /* Lighter font weight */
+    font-weight: medium; /* Lighter font weight */
     letter-spacing: -0.04em;
+    padding-top: 50px;
 }
 
 p {
@@ -354,7 +355,8 @@ header.scrolled {
     h2 {
     color: #080AA8; /* Bright royal blue */
     font-size: 31px;
-    font-weight: lighter; /* Lighter font weight */
+    padding-top: 50px;
+    font-weight: medium; /* Lighter font weight */
     letter-spacing: -0.04em;
 }
 
