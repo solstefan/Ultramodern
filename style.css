@@ -54,7 +54,7 @@ h1 {
 
 h2 {
     color: #4169E1; /* Bright royal blue */
-    font-size: 18px;
+    font-size: 24px;
     font-weight: lighter; /* Lighter font weight */
     font-style: italic;
     letter-spacing: -0.05em;
@@ -347,9 +347,17 @@ header.scrolled {
     }
 
     h1 {
-        font-size: 42px; /* Adjust the font size for better readability on small screens */
+        font-size: 40px; /* Adjust the font size for better readability on small screens */
         padding-top: 60px;
     }
+
+    h2 {
+    color: #4169E1; /* Bright royal blue */
+    font-size: 18px;
+    font-weight: lighter; /* Lighter font weight */
+    font-style: italic;
+    letter-spacing: -0.05em;
+}
 
     .pattern-container {
         padding: 10px; /* Add padding to the pattern container for better spacing on small screens */
