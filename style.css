@@ -53,9 +53,12 @@ h1 {
 }
 
 h2 {
-            color: #333;
+    color: #4169E1; /* Bright royal blue */
     font-size: 18px;
-        }
+    font-weight: lighter; /* Lighter font weight */
+    font-style: italic;
+    letter-spacing: -0.05em;
+}
 
 p {
     font-size: 14px; /* Adjust the font size for paragraphs */
