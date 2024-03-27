@@ -53,7 +53,7 @@ h1 {
 }
 
 h2 {
-    color: #080AA8; /* Bright royal blue */
+    color: #9FACC8; /* Bright royal blue */
     font-size: 61px;
     font-weight: medium; /* Lighter font weight */
     letter-spacing: -0.04em;
@@ -353,7 +353,7 @@ header.scrolled {
     }
 
     h2 {
-    color: #080AA8; /* Bright royal blue */
+    color: #9FACC8; /* Bright royal blue */
     font-size: 36px;
     padding-top: 50px;
     font-weight: medium; /* Lighter font weight */
