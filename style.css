@@ -53,11 +53,11 @@ h1 {
 }
 
 h2 {
-    color: #4169E1; /* Bright royal blue */
-    font-size: 24px;
+    color: #080AA8; /* Bright royal blue */
+    font-size: 28px;
     font-weight: lighter; /* Lighter font weight */
     font-style: italic;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.04em;
 }
 
 p {
@@ -347,16 +347,16 @@ header.scrolled {
     }
 
     h1 {
-        font-size: 34px; /* Adjust the font size for better readability on small screens */
+        font-size: 32px; /* Adjust the font size for better readability on small screens */
         padding-top: 60px;
     }
 
     h2 {
-    color: #4169E1; /* Bright royal blue */
+    color: #080AA8; /* Bright royal blue */
     font-size: 19px;
     font-weight: lighter; /* Lighter font weight */
     font-style: italic;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.04em;
 }
 
     .pattern-container {
