@@ -56,7 +56,6 @@ h2 {
     color: #080AA8; /* Bright royal blue */
     font-size: 28px;
     font-weight: lighter; /* Lighter font weight */
-    font-style: italic;
     letter-spacing: -0.04em;
 }
 
@@ -347,7 +346,7 @@ header.scrolled {
     }
 
     h1 {
-        font-size: 32px; /* Adjust the font size for better readability on small screens */
+        font-size: 48px; /* Adjust the font size for better readability on small screens */
         padding-top: 60px;
     }
 
