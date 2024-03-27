@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+hi@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 body {
     background-color: #030303;
@@ -354,7 +354,7 @@ header.scrolled {
 
     h2 {
     color: #080AA8; /* Bright royal blue */
-    font-size: 31px;
+    font-size: 33px;
     padding-top: 50px;
     font-weight: medium; /* Lighter font weight */
     letter-spacing: -0.04em;
