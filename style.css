@@ -8,18 +8,6 @@ body {
     margin: 15px 0;
 }
 
-        nav {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 4px;
-            background-color: #020203; /* Add a background color to the nav */
-        }
-
-a {
-            text-decoration: none; /* Removes underline */
-            color: #d2d5d9; /* Set your desired color */
-        }
 
         #logo {
             width: 50px; /* Allow the logo to adjust its width */
@@ -96,6 +84,7 @@ header.scrolled {
     font-size: 13px;
     font-family: 'Inter', sans-serif; /* Ensure Inter font is available */
     font-weight: 500; /* Medium */
+    margin-left: 5px;
     color: #C1C6D2;
     text-decoration: none; /* Remove underline */
 }
