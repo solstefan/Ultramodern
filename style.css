@@ -74,23 +74,32 @@ p {
 }
 
 header {
-    background-color: rgba(5, 4, 5, 0.8); /* Use rgba for transparency, adjust the last value (0.9) to control the opacity */
-    padding: 12px; /* Add padding to create space around the logo */
-    color: #ffffff; /* Set text color to contrast with the background */
-    display: flex; /* Use flexbox for layout control */
-    align-items: center; /* Center items vertically */
-    justify-content: space-between; /* Space items evenly */
-    position: fixed; /* Fix the header's position */
-    top: 0; /* Position the header at the top of the viewport */
-    width: 100%; /* Make the header span the entire width of the viewport */
-    z-index: 1000; /* Ensure the header stays above other content */
-    transition: background-color 0.3s ease; /* Add a smooth transition effect for background color change */
+    background-color: rgba(5, 4, 5, 0.8);
+    padding: 12px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center items horizontally */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
 }
 
 header.scrolled {
-    background-color: rgba(5, 4, 5, 0.7); /* Adjust the transparency and color as needed */
-    transition: background-color 0.3s ease; /* Add a smooth transition effect for background color change */
+    background-color: rgba(5, 4, 5, 0.7);
+    transition: background-color 0.3s ease;
 }
+
+.navigation-text {
+    font-size: 13px;
+    font-family: 'Inter', sans-serif; /* Ensure Inter font is available */
+    font-weight: 500; /* Medium */
+    color: #C1C6D2;
+    text-decoration: none; /* Remove underline */
+}
+
 
 form {
     display: flex;
