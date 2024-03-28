@@ -84,7 +84,7 @@ header.scrolled {
     font-size: 13px;
     font-family: 'Inter', sans-serif; /* Ensure Inter font is available */
     font-weight: 500; /* Medium */
-    margin-left: 5px;
+    margin-left: 10px;
     color: #C1C6D2;
     text-decoration: none; /* Remove underline */
 }
@@ -300,9 +300,9 @@ margin-bottom: 20px;
 }
 
 .navigation-link:hover .navigation-text {
-    background: linear-gradient(135deg, rgba(0, 0, 255, 0.8), rgba(0, 128, 255, 0.8)); /* Blue gradient with opacity 0.8 */
-    -webkit-background-clip: text; /* Clip text to background */
-    -webkit-text-fill-color: transparent; /* Make text transparent */
+    background: linear-gradient(135deg, rgba(0, 0, 255, 0.8), rgba(0, 128, 255, 0.8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -330,7 +330,7 @@ header.scrolled {
     transition: background-color 0.3s ease; /* Add a smooth transition effect for background color change */
 }
     .navigation-text {
-        margin-left: 0; /* Reset any previous left margin */
+        margin-left: 5; /* Reset any previous left margin */
         display: inline-block; /* Ensure the text appears on a single line */
     }
     
