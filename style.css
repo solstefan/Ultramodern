@@ -329,6 +329,10 @@ header.scrolled {
     background-color: rgba(5, 4, 5, 0.7); /* Adjust the transparency and color as needed */
     transition: background-color 0.3s ease; /* Add a smooth transition effect for background color change */
 }
+    .navigation-text {
+        margin-left: 0; /* Reset any previous left margin */
+        display: inline-block; /* Ensure the text appears on a single line */
+    }
     
     .feature-box {
                 border: 1px solid #0E0E11;
