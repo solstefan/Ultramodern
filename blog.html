@@ -163,15 +163,16 @@
     border: 0.5px solid #000; /* Sharp dark stroke */
 }
 
-        
-        @media only screen and (max-width: 600px) {
-    .blog-post {
-        max-width: 100%; /* Make the blog post full width on small screens */
-        padding: 0 10px; /* Add padding for better readability on small screens */
-    }
-            .image-container {
+        @media screen and (max-width: 700px) {
+    .image-container {
         flex-direction: column; /* Stack images vertically on smaller screens */
         align-items: center; /* Center-align images */
+    }
+
+    .image-container img {
+        max-width: 100%; /* Ensure images do not exceed the container width */
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: 10px; /* Add spacing between images */
     }
 
     /* Adjust text styles for smaller screens */
