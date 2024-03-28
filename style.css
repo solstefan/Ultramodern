@@ -84,7 +84,7 @@ header.scrolled {
     font-size: 13px;
     font-family: 'Inter', sans-serif; /* Ensure Inter font is available */
     font-weight: 500; /* Medium */
-    margin-right: 25px;
+    margin-right: 28px;
     color: #C1C6D2;
     text-decoration: none; /* Remove underline */
 }
@@ -325,7 +325,7 @@ header.scrolled {
     transition: background-color 0.3s ease; /* Add a smooth transition effect for background color change */
 }
     .navigation-text {
-        margin-right: 25; /* Reset any previous left margin */
+        margin-right: 28px; /* Reset any previous left margin */
         display: inline-block; /* Ensure the text appears on a single line */
     }
     
