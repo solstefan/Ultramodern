@@ -151,11 +151,27 @@
   top: -23px;
   left: 2px;
 }
+        .image-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.image-container img {
+    border-radius: 2px;
+    border: 0.5px solid #000; /* Sharp dark stroke */
+}
+
         
         @media only screen and (max-width: 600px) {
     .blog-post {
         max-width: 100%; /* Make the blog post full width on small screens */
         padding: 0 10px; /* Add padding for better readability on small screens */
+    }
+            .image-container {
+        flex-direction: column; /* Stack images vertically on smaller screens */
+        align-items: center; /* Center-align images */
     }
 
     /* Adjust text styles for smaller screens */
@@ -178,7 +194,11 @@
         <li><strong>Inspiration Feed:</strong> Discover inspiration and stay updated on the latest trends in AI hardware design with our curated feed of designs, articles, and resources.</li>
     </ol>
 
-    
+    <div class="image-container">
+    <img src="image1.jpg" alt="Image 1">
+    <img src="image2.jpg" alt="Image 2">
+    <img src="image3.jpg" alt="Image 3">
+</div>
 
 </body>
 </html>
