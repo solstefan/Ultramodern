@@ -349,6 +349,7 @@ header.scrolled {
     
     .feature-box {
                 border: 1px solid #0E0E11;
+                width: 350px;
                 display: block; /* On mobile, stack feature boxes */
                 width: 100%; /* Take up full width on mobile */
                 margin-bottom: 12px;
