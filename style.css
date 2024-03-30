@@ -54,23 +54,6 @@ p {
     margin: 10px 0; /* Add margin to separate paragraphs */
 }
 
-.image-border {
-    width: 785px;
-    padding: 10px; /* Decreased padding */
-    border-radius: 12px;
-    border: 1px solid #0E0E11;
-    margin-bottom: 18px; /* Decreased margin */
-    box-sizing: border-box;
-    display: inline-block;
-    background-color: #050506;
-}
-
-.border-image {
-            width: 100%;
-            height: auto;
-            margin-top: 4px;
-        }
-
 
 .hero-section {
     max-width: 1440px; /* Adjust the value based on your design preferences */
