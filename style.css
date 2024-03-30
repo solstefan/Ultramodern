@@ -56,11 +56,6 @@ p {
     color: #f7f7f7; /* Slightly off white color */
 }
 
-.gradient-text {
-    background: linear-gradient(to right, #ff4e50, #f9d423);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 .hero-section {
     max-width: 785px; /* Adjust the value based on your design preferences */
@@ -299,6 +294,13 @@ body::-webkit-scrollbar {
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Drop shadow */
   transition: all 0.3s ease; /* Smooth transition */
 margin-bottom: 20px;
+    
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #ff4e50, #f9d423);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* Hover effect */
@@ -387,4 +389,9 @@ header.scrolled {
     color: white;
     border-top: 0.5px dotted #18181B; /* Dotted line styling */
     font-size: 10px;
+}
+    .gradient-text {
+    background: linear-gradient(to right, #ff4e50, #f9d423);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
