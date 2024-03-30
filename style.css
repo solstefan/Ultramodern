@@ -49,11 +49,12 @@ h2 {
 }
 
 p {
-    font-size: 14px; /* Adjust the font size for paragraphs */
+     font-size: 16px; /* Adjust the font size for paragraphs */
     line-height: 1.5; /* Set the line height for better readability */
     margin: 10px 0; /* Add margin to separate paragraphs */
+    letter-spacing: -1px; /* Adjust letter spacing */
+    color: #f7f7f7; /* Slightly off white color */
 }
-
 
 .hero-section {
     max-width: 785px; /* Adjust the value based on your design preferences */
