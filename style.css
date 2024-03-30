@@ -58,7 +58,7 @@ p {
     max-width: 1440px; /* Adjust the value based on your design preferences */
     margin: 0 auto; /* Center the container */
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 header {
