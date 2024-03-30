@@ -56,6 +56,12 @@ p {
     color: #f7f7f7; /* Slightly off white color */
 }
 
+.gradient-text {
+    background: linear-gradient(to right, #ff4e50, #f9d423);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .hero-section {
     max-width: 785px; /* Adjust the value based on your design preferences */
     margin: 0 auto; /* Center the container */
