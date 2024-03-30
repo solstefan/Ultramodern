@@ -345,19 +345,6 @@ header.scrolled {
         margin-left: 5px; /* Add some left margin for spacing */
     }
 
-    .image-border {
-                border: 1px solid #0E0E11;
-                display: block; /* On mobile, stack feature boxes */
-                width: 100%; /* Take up full width on mobile */
-                margin-bottom: 12px;
-                background-color: #050506;
-            }
-    
-    .border-image {
-            width: 100%;
-            height: auto;
-            margin-top: 4px;
-        }
 
     .hero-section img {
         width: 100%; /* Make the hero image fill the width of the screen on small screens */
