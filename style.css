@@ -369,6 +369,12 @@ header.scrolled {
                 margin-bottom: 12px;
                 background-color: #050506;
             }
+    
+    .border-image {
+            width: 100%;
+            height: auto;
+            margin-top: 4px;
+        }
 
     .hero-section img {
         width: 100%; /* Make the hero image fill the width of the screen on small screens */
