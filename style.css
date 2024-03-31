@@ -97,19 +97,25 @@ header.scrolled {
 }
 
 
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center the form horizontally */
-    max-width: 300px;
-    margin: 0 auto;
-}
-
-input {
-    padding: 10px;
-    margin-bottom: 16px;
-    width: 100%; /* Make the input take the full width of its container */
-}
+ input[type="email"] {
+        width: 300px;
+        height: 40px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 5px 10px;
+        margin-bottom: 10px;
+    }
+    input[type="email"]:focus {
+        outline: none;
+    }
+    .btn {
+        background-color: #ffffff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
 
 
 .feature-box {
