@@ -330,7 +330,6 @@ margin-bottom: 20px;
   height: 10px;
   border-radius: 50%;
   background-color: #505051; /* Change color as desired */
-  padding-bottom: 25px;
   animation: pulse 1s infinite alternate;
   margin: 0 5px; /* Adjust spacing between circles */
 }
