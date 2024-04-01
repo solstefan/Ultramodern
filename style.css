@@ -396,8 +396,8 @@ header.scrolled {
     }
 
     h1 {
-        font-size: 55px; /* Adjust the font size for better readability on small screens */
-        padding-top: 60px;
+        font-size: 11px; /* Adjust the font size for better readability on small screens */
+        padding-top: 10px;
     }
 
     h2 {
