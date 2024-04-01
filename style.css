@@ -319,6 +319,30 @@ margin-bottom: 20px;
   border-color: #0a2a80; /* Darker green border */
 }
 
+.separator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000; /* Change color as desired */
+  animation: pulse 1s infinite alternate;
+  margin: 0 5px; /* Adjust spacing between circles */
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+
 
 
 @media only screen and (max-width: 600px) {
