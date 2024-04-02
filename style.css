@@ -347,7 +347,7 @@ margin-bottom: 20px;
 
 @media only screen and (max-width: 600px) {
     body {
-        margin: 6px; /* Adjust margin for better readability on small screens */
+        margin: 3px; /* Adjust margin for better readability on small screens */
     }
 
     header {
