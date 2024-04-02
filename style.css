@@ -2,7 +2,7 @@
 
 
 body {
-    background-color: #030303;
+    background-color: #020202;
     color: #cbd1cc;
     font-family: 'Inter', sans-serif;
     text-align: center;
@@ -347,7 +347,7 @@ margin-bottom: 20px;
 
 @media only screen and (max-width: 600px) {
     body {
-        margin: 3px; /* Adjust margin for better readability on small screens */
+        margin: 5px; /* Adjust margin for better readability on small screens */
     }
 
     header {
