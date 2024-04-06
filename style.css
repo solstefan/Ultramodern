@@ -43,7 +43,7 @@ h1 {
 
 h2 {
     color: #C1C6D2; /* Bright royal blue */
-    font-size: 44px;
+    font-size: 64px;
     font-weight: medium; /* Lighter font weight */
     letter-spacing: -0.04em;
     padding-top: 20px;
@@ -412,7 +412,7 @@ header.scrolled {
 
     h2 {
     color: #C1C6D2; /* Bright royal blue */
-    font-size: 31px;
+    font-size: 38px;
     padding-top: 35px;
     font-weight: medium; /* Lighter font weight */
     letter-spacing: -0.04em;
